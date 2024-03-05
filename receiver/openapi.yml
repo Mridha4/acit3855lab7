@@ -1,0 +1,89 @@
+---
+openapi: 3.0.0
+info:
+  title: Fintess Tracking API
+  description: This API receives activity and health metric events from fitness tracking devices and apps.
+  contact:
+    email: salmridha44@gmail.com
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /activity/log:
+    post:
+      summary: Log a physical activity
+      description: Adds a new physical activity log to the system
+      operationId: app.log_physical_activity
+      requestBody:
+        description: Physical activity log to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PhysicalActivityLog'
+      responses:
+        "201":
+          description: Item created
+        "400":
+          description: "Invalid input, object invalid"
+  /health/metric:
+    post:
+      summary: Update health metric
+      description: Adds a new health metric reading to the system
+      operationId: app.update_health_metric
+      requestBody:
+        description: Health metric reading to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/HealthMetricReading'
+      responses:
+        "201":
+          description: Item created
+        "400":
+          description: "Invalid input, object invalid"
+components:
+  schemas:
+    PhysicalActivityLog:
+      required:
+      - activityType
+      - duration
+      - timestamp
+      - userId
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        activityType:
+          type: string
+          example: Running
+        duration:
+          type: integer
+          example: 30
+        timestamp:
+          type: string
+          format: date-time
+          example: 2024-01-08T09:12:33.001Z
+    HealthMetricReading:
+      required:
+      - metricType
+      - timestamp
+      - userId
+      - value
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        metricType:
+          type: string
+          example: Heart Rate
+        value:
+          type: integer
+          example: 72
+        timestamp:
+          type: string
+          format: date-time
+          example: 2024-01-08T10:15:30Z

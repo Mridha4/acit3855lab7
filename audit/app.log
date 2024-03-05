@@ -1,0 +1,135 @@
+2024-03-04 09:02:26,461 - basicLogger - INFO - Retrieving activity log at index 1
+2024-03-04 09:02:33,892 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 09:06:37,576 - basicLogger - INFO - Retrieving activity log at index 1
+2024-03-04 09:07:07,334 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 09:27:09,224 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 10:58:19,954 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:00:34,113 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:02:53,442 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:06:47,763 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:07:11,500 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:14:02,039 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:38:48,448 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:38:58,255 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:39:30,099 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:44:12,760 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:56:13,723 - basicLogger - INFO - Retrieving activity log at index 1
+2024-03-04 11:56:14,798 - basicLogger - ERROR - Could not find activity log at index 1
+2024-03-04 11:56:40,529 - basicLogger - INFO - Retrieving activity log at index 1
+2024-03-04 11:58:50,580 - basicLogger - INFO - Retrieving activity log at index 1
+2024-03-04 11:59:12,541 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 11:59:26,695 - basicLogger - INFO - Retrieving activity log at index 5
+2024-03-04 11:59:27,766 - basicLogger - ERROR - Could not find activity log at index 5
+2024-03-04 11:59:47,235 - basicLogger - INFO - Retrieving activity log at index 5
+2024-03-04 11:59:48,309 - basicLogger - ERROR - Could not find activity log at index 5
+2024-03-04 11:59:53,175 - basicLogger - INFO - Retrieving activity log at index 4
+2024-03-04 11:59:54,250 - basicLogger - ERROR - Could not find activity log at index 4
+2024-03-04 11:59:58,407 - basicLogger - INFO - Retrieving activity log at index 3
+2024-03-04 11:59:59,482 - basicLogger - ERROR - Could not find activity log at index 3
+2024-03-04 12:00:03,755 - basicLogger - INFO - Retrieving activity log at index 2
+2024-03-04 12:02:07,293 - basicLogger - INFO - Retrieving activity log at index 2
+2024-03-04 12:06:00,946 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:06:01,020 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:06:02,024 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:06:07,958 - basicLogger - INFO - Retrieving health metric at index 1
+2024-03-04 12:06:09,031 - basicLogger - ERROR - Could not find health metric at index 1
+2024-03-04 12:06:36,683 - basicLogger - INFO - Retrieving health metric at index 2
+2024-03-04 12:06:37,757 - basicLogger - ERROR - Could not find health metric at index 2
+2024-03-04 12:06:45,312 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:06:45,382 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:06:46,388 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:07:47,085 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:07:47,154 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:07:47,154 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:07:48,154 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:08:20,628 - basicLogger - INFO - Retrieving activity log at index 2
+2024-03-04 12:08:36,595 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:08:36,666 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:08:36,666 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:08:37,671 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:10:24,210 - basicLogger - INFO - Retrieving health metric at index 4
+2024-03-04 12:10:25,285 - basicLogger - ERROR - Could not find health metric at index 4
+2024-03-04 12:10:29,964 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:10:30,034 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:10:30,034 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:10:31,035 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:12:00,576 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:12:00,647 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:00,647 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:01,652 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:12:04,900 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:12:04,971 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:04,971 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:05,975 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:12:26,978 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:12:27,050 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:27,051 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:28,056 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:12:29,409 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:12:29,479 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:29,480 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:30,484 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:12:33,529 - basicLogger - INFO - Retrieving health metric at index 1
+2024-03-04 12:12:33,599 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:34,603 - basicLogger - ERROR - Could not find health metric at index 1
+2024-03-04 12:12:52,823 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:12:52,894 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:52,894 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:12:53,896 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:15:12,883 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:15:12,952 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:15:12,952 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:15:12,952 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:15:13,958 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:15:18,583 - basicLogger - INFO - Retrieving health metric at index 1
+2024-03-04 12:15:18,652 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:15:18,653 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:15:19,654 - basicLogger - ERROR - Could not find health metric at index 1
+2024-03-04 12:19:07,846 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:19:07,916 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:07,916 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:07,916 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:08,919 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:19:26,808 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 12:19:26,879 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:26,879 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:26,879 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:26,880 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:27,882 - basicLogger - ERROR - Could not find health metric at index 0
+2024-03-04 12:19:31,478 - basicLogger - INFO - Retrieving health metric at index 1
+2024-03-04 12:19:31,547 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:31,547 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:31,547 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 12:19:32,553 - basicLogger - ERROR - Could not find health metric at index 1
+2024-03-04 13:43:16,457 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 13:47:02,826 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 13:47:02,897 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:47:02,897 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:47:02,898 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:47:16,591 - basicLogger - INFO - Retrieving health metric at index 1
+2024-03-04 13:47:16,662 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:47:16,662 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:47:19,645 - basicLogger - INFO - Retrieving health metric at index 2
+2024-03-04 13:47:19,717 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:49:05,498 - basicLogger - INFO - Retrieving health metric at index 2
+2024-03-04 13:49:05,569 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 13:49:07,636 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 13:54:42,535 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 13:54:46,757 - basicLogger - INFO - Retrieving health metric at index 2
+2024-03-04 13:54:46,829 - basicLogger - ERROR - Necessary fields missing in the message payload
+2024-03-04 14:00:39,683 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 14:01:12,514 - basicLogger - INFO - Retrieving health metric at index 2
+2024-03-04 14:01:13,592 - basicLogger - ERROR - Could not find health metric at index 2
+2024-03-04 14:01:19,193 - basicLogger - INFO - Retrieving health metric at index 0
+2024-03-04 14:02:15,661 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 14:02:24,862 - basicLogger - INFO - Retrieving activity log at index 1005
+2024-03-04 14:02:25,935 - basicLogger - ERROR - Could not find activity log at index 1005
+2024-03-04 15:16:43,390 - basicLogger - INFO - Retrieving activity log at index 1005
+2024-03-04 15:16:44,536 - basicLogger - ERROR - Could not find activity log at index 1005
+2024-03-04 15:16:52,788 - basicLogger - INFO - Retrieving activity log at index 0
+2024-03-04 15:17:05,754 - basicLogger - INFO - Retrieving activity log at index 100
+2024-03-04 15:17:06,918 - basicLogger - ERROR - Could not find activity log at index 100
+2024-03-04 15:17:13,544 - basicLogger - INFO - Retrieving activity log at index 50
+2024-03-04 15:17:27,561 - basicLogger - INFO - Retrieving health metric at index 100
+2024-03-04 15:17:28,716 - basicLogger - ERROR - Could not find health metric at index 100
+2024-03-04 15:17:36,597 - basicLogger - INFO - Retrieving health metric at index 0

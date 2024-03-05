@@ -1,0 +1,138 @@
+openapi: 3.0.0
+info:
+  description: This API provides audit info
+  version: "1.0.0"
+  title: Audit API
+  contact:
+    email: salmridha44@gmail.com
+paths:
+  /activity/log:
+    get:
+      summary: gets an activity log from history
+      operationId: app.get_activity_log
+      description: Gets activity logs from the event store
+      parameters:
+      - name: index
+        in: query
+        description: Gets the activity log at the index in the event store
+        schema:
+          type: integer
+          example: 100
+      responses:
+        '200':
+          description: Successfully returned an activity log event
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PhysicalActivityLog'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /health/metric:
+    get:
+      summary: gets a health metric reading from history
+      operationId: app.get_health_metric_reading
+      description: Gets health metric readings from the event store
+      parameters:
+      - name: index
+        in: query
+        description: Gets the health metric at the index in the event store
+        schema:
+          type: integer
+          example: 100
+      responses:
+        '200':
+          description: Successfully returned a health metric event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/HealthMetricReading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    PhysicalActivityLog:
+      required:
+      - activityType
+      - duration
+      - timestamp
+      - userId
+      - trace_id
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        activityType:
+          type: string
+          example: Running
+        duration:
+          type: integer
+          example: 30
+        timestamp:
+          type: string
+          format: date-time
+          example: "2024-01-08T09:12:33.001Z"
+        trace_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+    HealthMetricReading:
+      required:
+      - metricType
+      - timestamp
+      - userId
+      - value
+      - trace_id
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        metricType:
+          type: string
+          example: Heart Rate
+        value:
+          type: integer
+          example: 72
+        timestamp:
+          type: string
+          format: date-time
+          example: "2024-01-08T10:15:30Z"
+        trace_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"

@@ -1,0 +1,178 @@
+openapi: 3.0.0
+info:
+  title: Fitness Tracking API
+  description: This API receives activity and health metric events from fitness tracking devices and apps.
+  contact:
+    email: salmridha44@gmail.com
+  version: 1.0.0
+servers:
+  - url: /
+paths:
+  /activity/log:
+    # post:
+    #   summary: Log a physical activity
+    #   description: Adds a new physical activity log to the system
+    #   operationId: app.log_physical_activity
+    #   requestBody:
+    #     description: Physical activity log to add
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/PhysicalActivityLog'
+    #   responses:
+    #     "201":
+    #       description: Item created
+    #     "400":
+    #       description: "Invalid input, object invalid"
+    
+    get:
+      tags:
+      - Activity Log
+      summary: Gets physical activity logs between timestamps
+      operationId: app.get_physical_activity_logs
+      parameters:
+      - name: start_timestamp
+        in: query
+        required: true
+        description: Start of the timestamp range
+        schema:
+          type: string
+          format: date-time
+      - name: end_timestamp
+        in: query
+        required: true
+        description: End of the timestamp range
+        schema:
+          type: string
+          format: date-time
+      responses:
+        '200':
+          description: Successfully returned a list of physical activity events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PhysicalActivityLog'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /health/metric:
+    # post:
+    #   summary: Update health metric
+    #   description: Adds a new health metric reading to the system
+    #   operationId: app.update_health_metric
+    #   requestBody:
+    #     description: Health metric reading to add
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/HealthMetricReading'
+    #   responses:
+    #     "201":
+    #       description: Item created
+    #     "400":
+    #       description: "Invalid input, object invalid"
+    
+    get:
+      tags:
+      - Health Metric
+      summary: Gets health metric readings between timestamps
+      operationId: app.get_health_metric_readings
+      parameters:
+      - name: start_timestamp
+        in: query
+        required: true
+        description: Start of the timestamp range
+        schema:
+          type: string
+          format: date-time
+      - name: end_timestamp
+        in: query
+        required: true
+        description: End of the timestamp range
+        schema:
+          type: string
+          format: date-time
+      responses:
+        '200':
+          description: Successfully returned a list of health metric events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/HealthMetricReading'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    PhysicalActivityLog:
+      required:
+        - activityType
+        - duration
+        - timestamp
+        - userId
+        - trace_id
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        activityType:
+          type: string
+          example: Running
+        duration:
+          type: integer
+          example: 30
+        timestamp:
+          type: string
+          format: date-time
+          example: 2024-01-08T09:12:33.001Z
+        trace_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+    HealthMetricReading:
+      required:
+        - metricType
+        - timestamp
+        - userId
+        - value
+        - trace_id
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174000
+        metricType:
+          type: string
+          example: Heart Rate
+        value:
+          type: integer
+          example: 72
+        timestamp:
+          type: string
+          format: date-time
+          example: 2024-01-08T10:15:30Z
+        trace_id:
+          type: string
+          format: uuid
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"

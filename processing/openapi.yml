@@ -1,0 +1,57 @@
+openapi: 3.0.0
+info:
+  title: Fitness Event Processing API
+  description: This API processes fitness tracking events from the Storage Service and generates statistics.
+  contact:
+    email: salmridha44@gmail.com
+  version: "1.0.0"
+servers:
+  - url: /
+paths:
+  /stats:
+    get:
+      summary: Gets the fitness event stats
+      operationId: app.get_stats
+      description: Returns statistics based on the newest fitness tracking events.
+      responses:
+        '200':
+          description: Successfully returned stats
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FitnessStats'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    FitnessStats:
+      type: object
+      required:
+        - num_activity_logs
+        - num_health_metrics
+        - average_duration
+        - average_heart_rate
+      properties:
+        num_activity_logs:
+          type: integer
+          description: The total number of physical activity logs received.
+          example: 100
+        num_health_metrics:
+          type: integer
+          description: The total number of health metric readings received.
+          example: 150
+        average_duration:
+          type: integer
+          description: The average duration (in minutes) of all physical activities logged.
+          example: 45
+        average_heart_rate:
+          type: integer
+          description: The average heart rate from all heart rate metrics received.
+          example: 120
