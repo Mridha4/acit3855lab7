@@ -1,14 +1,10 @@
-FROM ubuntu:18.04
+FROM python:3.8-slim
+
 LABEL maintainer="salmridha44@gmail.com"
 
-RUN apt-get update -y && \
-    apt-get install -y python3 python3-pip
-
-COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
-RUN pip3 install -r requirements.txt
-
-COPY . /app
-
-ENTRYPOINT [ "python3" ]
-CMD [ "app.py" ]
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+CMD ["python", "create_tables_mysql.py"]
+CMD ["python", "app.py"]

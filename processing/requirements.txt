@@ -1,5 +1,8 @@
-connexion==2.7.0
-swagger-ui-bundle==0.0.8
+connexion[flask]
+uvicorn
+swagger-ui-bundle
 APScheduler==3.6.3
-sqlalchemy-orm==1.2.10
+sqlalchemy==1.3.23
 pytz==2022.1
+openapi_spec_validator
+

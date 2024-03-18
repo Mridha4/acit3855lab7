@@ -118,8 +118,8 @@ def init_scheduler():
     sched.start()
     logger.info("Scheduler has been initialized and started.")
 
-app = connexion.Flask(__name__)
-app.add_api(openapi.yml)
+app = connexion.FlaskApp(__name__, specification_dir='')
+app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == '__main__':
     init_scheduler()
