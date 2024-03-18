@@ -17131,3 +17131,171 @@
 2024-03-03 18:55:26,672 - basicLogger - DEBUG - New Values: (<built-in function id>, 0, 0, 0, 0, '2024-03-03T18:55:21Z')
 2024-03-03 18:55:26,672 - basicLogger - INFO - Database updated with new statistics.
 2024-03-03 18:55:26,672 - basicLogger - INFO - Periodic Processing Completed
+2024-03-16 14:55:10,810 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-16 14:55:11,069 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-16 14:55:15,813 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:55:15,819 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:55:15.819502
+2024-03-16 14:55:16,074 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:55:16,080 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:55:16.080093
+2024-03-16 14:55:35,906 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:55:35,906 - basicLogger - ERROR - errors
+2024-03-16 14:55:36,109 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:55:36,109 - basicLogger - ERROR - errors
+2024-03-16 14:55:40,817 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:55:40,836 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:55:40.836866
+2024-03-16 14:55:41,084 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:55:41,104 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:55:41.104641
+2024-03-16 14:56:00,971 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:00,972 - basicLogger - ERROR - errors
+2024-03-16 14:56:01,135 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:01,135 - basicLogger - ERROR - errors
+2024-03-16 14:56:05,816 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:05,838 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:05.838159
+2024-03-16 14:56:06,073 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:06,078 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:06.078241
+2024-03-16 14:56:07,073 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:07,074 - basicLogger - ERROR - errors
+2024-03-16 14:56:07,307 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:07,307 - basicLogger - ERROR - errors
+2024-03-16 14:56:10,815 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:10,818 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:10.818789
+2024-03-16 14:56:11,034 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:11,034 - basicLogger - ERROR - errors
+2024-03-16 14:56:11,074 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:11,076 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:11.076031
+2024-03-16 14:56:11,290 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:11,290 - basicLogger - ERROR - errors
+2024-03-16 14:56:15,815 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:15,819 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:15.819783
+2024-03-16 14:56:16,014 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:16,014 - basicLogger - ERROR - errors
+2024-03-16 14:56:16,075 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:16,078 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:16.078605
+2024-03-16 14:56:16,274 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:16,274 - basicLogger - ERROR - errors
+2024-03-16 14:56:20,816 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:20,820 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:20.820765
+2024-03-16 14:56:21,033 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:21,033 - basicLogger - ERROR - errors
+2024-03-16 14:56:21,074 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:21,075 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:21.075382
+2024-03-16 14:56:21,263 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:21,263 - basicLogger - ERROR - errors
+2024-03-16 14:56:25,815 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:25,817 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:25.817164
+2024-03-16 14:56:26,070 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:26,072 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:26.072150
+2024-03-16 14:56:26,399 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:26,399 - basicLogger - ERROR - errors
+2024-03-16 14:56:26,687 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:26,687 - basicLogger - ERROR - errors
+2024-03-16 14:56:30,816 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:30,818 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:30.818621
+2024-03-16 14:56:31,071 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:31,075 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:31.075486
+2024-03-16 14:56:31,375 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:31,375 - basicLogger - ERROR - errors
+2024-03-16 14:56:31,603 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:31,603 - basicLogger - ERROR - errors
+2024-03-16 14:56:35,812 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:35,813 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:35.813363
+2024-03-16 14:56:36,074 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:36,077 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:36.077601
+2024-03-16 14:56:36,398 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:36,399 - basicLogger - ERROR - errors
+2024-03-16 14:56:36,675 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:36,675 - basicLogger - ERROR - errors
+2024-03-16 14:56:40,816 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:40,822 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:40.822216
+2024-03-16 14:56:41,074 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:41,076 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:41.076183
+2024-03-16 14:56:41,365 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:41,365 - basicLogger - ERROR - errors
+2024-03-16 14:56:41,595 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:41,595 - basicLogger - ERROR - errors
+2024-03-16 14:56:45,814 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-16 14:56:46,063 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-16 14:56:50,819 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:50,828 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:50.828267
+2024-03-16 14:56:51,066 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:51,072 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:51.072169
+2024-03-16 14:56:51,354 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:51,355 - basicLogger - ERROR - errors
+2024-03-16 14:56:51,603 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:56:51,603 - basicLogger - ERROR - errors
+2024-03-16 14:56:55,820 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:55,825 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:55.825279
+2024-03-16 14:56:56,067 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:56:56,071 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:56:56.071252
+2024-03-16 14:57:00,814 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:00,816 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:00.816144
+2024-03-16 14:57:01,064 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:01,065 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:01.065794
+2024-03-16 14:57:01,383 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:01,383 - basicLogger - ERROR - errors
+2024-03-16 14:57:01,586 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:01,586 - basicLogger - ERROR - errors
+2024-03-16 14:57:05,818 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:05,821 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:05.821939
+2024-03-16 14:57:06,068 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:06,070 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:06.070122
+2024-03-16 14:57:06,361 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:06,361 - basicLogger - ERROR - errors
+2024-03-16 14:57:06,601 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:06,601 - basicLogger - ERROR - errors
+2024-03-16 14:57:10,818 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:10,819 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:10.819114
+2024-03-16 14:57:11,065 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:11,066 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:11.066807
+2024-03-16 14:57:11,551 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:11,551 - basicLogger - ERROR - errors
+2024-03-16 14:57:11,618 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:11,618 - basicLogger - ERROR - errors
+2024-03-16 14:57:15,819 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:15,821 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:15.820977
+2024-03-16 14:57:16,064 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:16,066 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:16.066106
+2024-03-16 14:57:16,385 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:16,386 - basicLogger - ERROR - errors
+2024-03-16 14:57:16,622 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:16,622 - basicLogger - ERROR - errors
+2024-03-16 14:57:20,818 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:20,822 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:20.822309
+2024-03-16 14:57:21,067 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:21,073 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:21.073059
+2024-03-16 14:57:21,343 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:21,343 - basicLogger - ERROR - errors
+2024-03-16 14:57:21,616 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:21,616 - basicLogger - ERROR - errors
+2024-03-16 14:57:25,814 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:25,816 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:25.816770
+2024-03-16 14:57:26,067 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:26,069 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:26.069049
+2024-03-16 14:57:26,334 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:26,334 - basicLogger - ERROR - errors
+2024-03-16 14:57:26,588 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:26,589 - basicLogger - ERROR - errors
+2024-03-16 14:57:30,814 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:30,816 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:30.816751
+2024-03-16 14:57:31,063 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:31,065 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:31.065084
+2024-03-16 14:57:31,421 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:31,421 - basicLogger - ERROR - errors
+2024-03-16 14:57:31,695 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:31,695 - basicLogger - ERROR - errors
+2024-03-16 14:57:35,818 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:35,822 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:35.822387
+2024-03-16 14:57:36,066 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:36,066 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:36.066866
+2024-03-16 14:57:36,445 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:36,445 - basicLogger - ERROR - errors
+2024-03-16 14:57:36,648 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:36,648 - basicLogger - ERROR - errors
+2024-03-16 14:57:40,817 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:40,818 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:40.818262
+2024-03-16 14:57:41,066 - basicLogger - INFO - Starting Periodic Processing
+2024-03-16 14:57:41,067 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-16 14:57:41.067527
+2024-03-16 14:57:41,350 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:41,350 - basicLogger - ERROR - errors
+2024-03-16 14:57:41,601 - basicLogger - INFO - {<Response [400]>}
+2024-03-16 14:57:41,602 - basicLogger - ERROR - errors

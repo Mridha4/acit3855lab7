@@ -9,6 +9,8 @@ from sqlalchemy.orm import sessionmaker
 from base import Base
 from stat_class import WorkoutStats
 import pytz
+import connexion
+
 # Load logging configuration
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
@@ -116,12 +118,8 @@ def init_scheduler():
     sched.start()
     logger.info("Scheduler has been initialized and started.")
 
-app = Flask(__name__)
-
-@app.route('/stats', methods=['GET'])
-def stats_endpoint():
-    """Endpoint to get the latest statistics."""
-    return get_stats()
+app = connexion.Flask(__name__)
+app.add_api(openapi.yml)
 
 if __name__ == '__main__':
     init_scheduler()
