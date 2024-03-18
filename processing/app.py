@@ -8,6 +8,7 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
 from base import Base
 from stat_class import WorkoutStats
+import pytz
 # Load logging configuration
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
@@ -110,7 +111,7 @@ def get_stats():
 
 def init_scheduler():
     """Initializes the scheduler to run populate_stats periodically."""
-    sched = BackgroundScheduler(daemon=True)
+    sched = BackgroundScheduler(daemon=True, timezone=pytz.utc)
     sched.add_job(populate_stats, 'interval', seconds=app_config['scheduler']['period_sec'])
     sched.start()
     logger.info("Scheduler has been initialized and started.")
@@ -124,4 +125,4 @@ def stats_endpoint():
 
 if __name__ == '__main__':
     init_scheduler()
-    app.run(port=8100, debug=True)
+    app.run(host='0.0.0.0', port=8100)
