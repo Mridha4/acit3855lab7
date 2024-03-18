@@ -17299,3 +17299,1030 @@
 2024-03-16 14:57:41,350 - basicLogger - ERROR - errors
 2024-03-16 14:57:41,601 - basicLogger - INFO - {<Response [400]>}
 2024-03-16 14:57:41,602 - basicLogger - ERROR - errors
+2024-03-18 13:36:26,459 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-18 13:36:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:36:31,472 - basicLogger - DEBUG - 2024-03-03T18:55:26Z - fetching with 2024-03-18 13:36:31.472197
+2024-03-18 13:36:32,862 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:36:32,869 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 68.13333333333334, 82.15, '2024-03-03T18:55:26Z')
+2024-03-18 13:36:32,869 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:36:32,869 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:36:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:36:36,467 - basicLogger - DEBUG - 2024-03-18T13:36:31Z - fetching with 2024-03-18 13:36:36.467343
+2024-03-18 13:36:36,901 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:36:36,906 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:36:31Z')
+2024-03-18 13:36:36,906 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:36:36,906 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:36:41,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:36:41,466 - basicLogger - DEBUG - 2024-03-18T13:36:36Z - fetching with 2024-03-18 13:36:41.466288
+2024-03-18 13:36:41,913 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:36:41,918 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:36:36Z')
+2024-03-18 13:36:41,918 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:36:41,918 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:36:46,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:36:46,462 - basicLogger - DEBUG - 2024-03-18T13:36:41Z - fetching with 2024-03-18 13:36:46.462283
+2024-03-18 13:36:46,914 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:36:46,916 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:36:41Z')
+2024-03-18 13:36:46,917 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:36:46,917 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:36:51,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:36:51,469 - basicLogger - DEBUG - 2024-03-18T13:36:46Z - fetching with 2024-03-18 13:36:51.469242
+2024-03-18 13:36:51,898 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:36:51,900 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:36:46Z')
+2024-03-18 13:36:51,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:36:51,901 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:36:56,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:36:56,464 - basicLogger - DEBUG - 2024-03-18T13:36:51Z - fetching with 2024-03-18 13:36:56.464417
+2024-03-18 13:36:56,896 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:36:56,898 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:36:51Z')
+2024-03-18 13:36:56,898 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:36:56,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:01,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:01,468 - basicLogger - DEBUG - 2024-03-18T13:36:56Z - fetching with 2024-03-18 13:37:01.468384
+2024-03-18 13:37:01,906 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:01,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:36:56Z')
+2024-03-18 13:37:01,910 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:01,911 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:06,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:06,464 - basicLogger - DEBUG - 2024-03-18T13:37:01Z - fetching with 2024-03-18 13:37:06.464075
+2024-03-18 13:37:06,903 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:06,906 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:01Z')
+2024-03-18 13:37:06,906 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:06,906 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:11,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:11,470 - basicLogger - DEBUG - 2024-03-18T13:37:06Z - fetching with 2024-03-18 13:37:11.470483
+2024-03-18 13:37:11,922 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:11,928 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:06Z')
+2024-03-18 13:37:11,928 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:11,929 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:16,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:16,467 - basicLogger - DEBUG - 2024-03-18T13:37:11Z - fetching with 2024-03-18 13:37:16.467273
+2024-03-18 13:37:16,903 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:16,908 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:11Z')
+2024-03-18 13:37:16,908 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:16,908 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:21,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:21,463 - basicLogger - DEBUG - 2024-03-18T13:37:16Z - fetching with 2024-03-18 13:37:21.463649
+2024-03-18 13:37:21,884 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:21,887 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:16Z')
+2024-03-18 13:37:21,887 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:21,888 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:26,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:26,468 - basicLogger - DEBUG - 2024-03-18T13:37:21Z - fetching with 2024-03-18 13:37:26.468902
+2024-03-18 13:37:26,889 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:26,891 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:21Z')
+2024-03-18 13:37:26,892 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:26,892 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:31,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:31,467 - basicLogger - DEBUG - 2024-03-18T13:37:26Z - fetching with 2024-03-18 13:37:31.467606
+2024-03-18 13:37:31,909 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:31,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:26Z')
+2024-03-18 13:37:31,910 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:31,910 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:36,466 - basicLogger - DEBUG - 2024-03-18T13:37:31Z - fetching with 2024-03-18 13:37:36.466931
+2024-03-18 13:37:36,903 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:36,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:31Z')
+2024-03-18 13:37:36,905 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:36,905 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:41,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:41,467 - basicLogger - DEBUG - 2024-03-18T13:37:36Z - fetching with 2024-03-18 13:37:41.467903
+2024-03-18 13:37:41,903 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:41,904 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:36Z')
+2024-03-18 13:37:41,904 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:41,904 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:46,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:46,468 - basicLogger - DEBUG - 2024-03-18T13:37:41Z - fetching with 2024-03-18 13:37:46.468344
+2024-03-18 13:37:46,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:46,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:41Z')
+2024-03-18 13:37:46,911 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:46,911 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:51,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:51,467 - basicLogger - DEBUG - 2024-03-18T13:37:46Z - fetching with 2024-03-18 13:37:51.467259
+2024-03-18 13:37:51,895 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:51,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:46Z')
+2024-03-18 13:37:51,897 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:51,897 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:37:56,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:37:56,467 - basicLogger - DEBUG - 2024-03-18T13:37:51Z - fetching with 2024-03-18 13:37:56.467819
+2024-03-18 13:37:56,904 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:37:56,908 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:51Z')
+2024-03-18 13:37:56,908 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:37:56,908 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:01,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:01,466 - basicLogger - DEBUG - 2024-03-18T13:37:56Z - fetching with 2024-03-18 13:38:01.466137
+2024-03-18 13:38:01,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:01,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:37:56Z')
+2024-03-18 13:38:01,914 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:01,914 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:06,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:06,468 - basicLogger - DEBUG - 2024-03-18T13:38:01Z - fetching with 2024-03-18 13:38:06.468894
+2024-03-18 13:38:06,896 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:06,899 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:01Z')
+2024-03-18 13:38:06,900 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:06,900 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:11,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:11,468 - basicLogger - DEBUG - 2024-03-18T13:38:06Z - fetching with 2024-03-18 13:38:11.468061
+2024-03-18 13:38:11,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:11,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:06Z')
+2024-03-18 13:38:11,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:11,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:16,466 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:16,474 - basicLogger - DEBUG - 2024-03-18T13:38:11Z - fetching with 2024-03-18 13:38:16.474239
+2024-03-18 13:38:16,972 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:16,976 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:11Z')
+2024-03-18 13:38:16,976 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:16,976 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:21,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:21,471 - basicLogger - DEBUG - 2024-03-18T13:38:16Z - fetching with 2024-03-18 13:38:21.471148
+2024-03-18 13:38:21,910 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:21,914 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:16Z')
+2024-03-18 13:38:21,914 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:21,915 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:26,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:26,465 - basicLogger - DEBUG - 2024-03-18T13:38:21Z - fetching with 2024-03-18 13:38:26.465859
+2024-03-18 13:38:26,899 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:26,902 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:21Z')
+2024-03-18 13:38:26,902 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:26,903 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:31,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:31,465 - basicLogger - DEBUG - 2024-03-18T13:38:26Z - fetching with 2024-03-18 13:38:31.465436
+2024-03-18 13:38:31,966 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:31,969 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:26Z')
+2024-03-18 13:38:31,969 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:31,970 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:36,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:36,465 - basicLogger - DEBUG - 2024-03-18T13:38:31Z - fetching with 2024-03-18 13:38:36.465143
+2024-03-18 13:38:36,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:36,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:31Z')
+2024-03-18 13:38:36,911 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:36,911 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:41,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:41,475 - basicLogger - DEBUG - 2024-03-18T13:38:36Z - fetching with 2024-03-18 13:38:41.474998
+2024-03-18 13:38:42,656 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:42,659 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:36Z')
+2024-03-18 13:38:42,660 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:42,660 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:46,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:46,465 - basicLogger - DEBUG - 2024-03-18T13:38:41Z - fetching with 2024-03-18 13:38:46.465449
+2024-03-18 13:38:46,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:46,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:41Z')
+2024-03-18 13:38:46,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:46,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:51,467 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:51,474 - basicLogger - DEBUG - 2024-03-18T13:38:46Z - fetching with 2024-03-18 13:38:51.474922
+2024-03-18 13:38:51,924 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:51,927 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:46Z')
+2024-03-18 13:38:51,927 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:51,927 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:38:56,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:38:56,464 - basicLogger - DEBUG - 2024-03-18T13:38:51Z - fetching with 2024-03-18 13:38:56.464850
+2024-03-18 13:38:56,905 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:38:56,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:51Z')
+2024-03-18 13:38:56,910 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:38:56,910 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:01,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:01,464 - basicLogger - DEBUG - 2024-03-18T13:38:56Z - fetching with 2024-03-18 13:39:01.464049
+2024-03-18 13:39:01,898 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:01,901 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:38:56Z')
+2024-03-18 13:39:01,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:01,902 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:06,459 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:06,461 - basicLogger - DEBUG - 2024-03-18T13:39:01Z - fetching with 2024-03-18 13:39:06.461024
+2024-03-18 13:39:06,922 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:06,927 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:01Z')
+2024-03-18 13:39:06,927 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:06,927 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:11,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:11,476 - basicLogger - DEBUG - 2024-03-18T13:39:06Z - fetching with 2024-03-18 13:39:11.476259
+2024-03-18 13:39:11,934 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:11,940 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:06Z')
+2024-03-18 13:39:11,940 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:11,940 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:16,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:16,469 - basicLogger - DEBUG - 2024-03-18T13:39:11Z - fetching with 2024-03-18 13:39:16.469237
+2024-03-18 13:39:16,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:16,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:11Z')
+2024-03-18 13:39:16,913 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:16,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:21,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:21,467 - basicLogger - DEBUG - 2024-03-18T13:39:16Z - fetching with 2024-03-18 13:39:21.467536
+2024-03-18 13:39:21,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:21,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:16Z')
+2024-03-18 13:39:21,913 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:21,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:26,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:26,464 - basicLogger - DEBUG - 2024-03-18T13:39:21Z - fetching with 2024-03-18 13:39:26.464443
+2024-03-18 13:39:26,905 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:26,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:21Z')
+2024-03-18 13:39:26,910 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:26,910 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:31,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:31,463 - basicLogger - DEBUG - 2024-03-18T13:39:26Z - fetching with 2024-03-18 13:39:31.463730
+2024-03-18 13:39:32,449 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:32,451 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:26Z')
+2024-03-18 13:39:32,451 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:32,451 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:36,466 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:36,479 - basicLogger - DEBUG - 2024-03-18T13:39:31Z - fetching with 2024-03-18 13:39:36.479124
+2024-03-18 13:39:36,936 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:36,943 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:31Z')
+2024-03-18 13:39:36,943 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:36,943 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:41,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:41,466 - basicLogger - DEBUG - 2024-03-18T13:39:36Z - fetching with 2024-03-18 13:39:41.466634
+2024-03-18 13:39:41,895 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:41,899 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:36Z')
+2024-03-18 13:39:41,900 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:41,900 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:46,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:46,466 - basicLogger - DEBUG - 2024-03-18T13:39:41Z - fetching with 2024-03-18 13:39:46.466110
+2024-03-18 13:39:46,898 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:46,901 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:41Z')
+2024-03-18 13:39:46,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:46,902 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:51,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:51,468 - basicLogger - DEBUG - 2024-03-18T13:39:46Z - fetching with 2024-03-18 13:39:51.468289
+2024-03-18 13:39:51,897 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:51,900 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:46Z')
+2024-03-18 13:39:51,900 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:51,900 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:39:56,467 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:39:56,479 - basicLogger - DEBUG - 2024-03-18T13:39:51Z - fetching with 2024-03-18 13:39:56.479388
+2024-03-18 13:39:56,951 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:39:56,956 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:51Z')
+2024-03-18 13:39:56,956 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:39:56,956 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:01,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:01,466 - basicLogger - DEBUG - 2024-03-18T13:39:56Z - fetching with 2024-03-18 13:40:01.466664
+2024-03-18 13:40:02,204 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:02,208 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:39:56Z')
+2024-03-18 13:40:02,208 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:02,209 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:06,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:06,465 - basicLogger - DEBUG - 2024-03-18T13:40:01Z - fetching with 2024-03-18 13:40:06.465696
+2024-03-18 13:40:06,893 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:06,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:01Z')
+2024-03-18 13:40:06,897 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:06,897 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:11,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:11,464 - basicLogger - DEBUG - 2024-03-18T13:40:06Z - fetching with 2024-03-18 13:40:11.464024
+2024-03-18 13:40:11,894 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:11,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:06Z')
+2024-03-18 13:40:11,898 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:11,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:16,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:16,465 - basicLogger - DEBUG - 2024-03-18T13:40:11Z - fetching with 2024-03-18 13:40:16.465189
+2024-03-18 13:40:16,895 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:16,899 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:11Z')
+2024-03-18 13:40:16,900 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:16,900 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:21,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:21,465 - basicLogger - DEBUG - 2024-03-18T13:40:16Z - fetching with 2024-03-18 13:40:21.465442
+2024-03-18 13:40:21,900 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:21,903 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:16Z')
+2024-03-18 13:40:21,903 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:21,903 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:26,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:26,466 - basicLogger - DEBUG - 2024-03-18T13:40:21Z - fetching with 2024-03-18 13:40:26.466915
+2024-03-18 13:40:26,902 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:26,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:21Z')
+2024-03-18 13:40:26,905 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:26,906 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:31,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:31,467 - basicLogger - DEBUG - 2024-03-18T13:40:26Z - fetching with 2024-03-18 13:40:31.467514
+2024-03-18 13:40:31,918 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:31,923 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:26Z')
+2024-03-18 13:40:31,923 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:31,923 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:36,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:36,464 - basicLogger - DEBUG - 2024-03-18T13:40:31Z - fetching with 2024-03-18 13:40:36.464730
+2024-03-18 13:40:36,894 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:36,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:31Z')
+2024-03-18 13:40:36,897 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:36,897 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:41,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:41,466 - basicLogger - DEBUG - 2024-03-18T13:40:36Z - fetching with 2024-03-18 13:40:41.466725
+2024-03-18 13:40:41,901 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:41,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:36Z')
+2024-03-18 13:40:41,906 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:41,906 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:46,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:46,464 - basicLogger - DEBUG - 2024-03-18T13:40:41Z - fetching with 2024-03-18 13:40:46.464000
+2024-03-18 13:40:46,897 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:46,901 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:41Z')
+2024-03-18 13:40:46,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:46,901 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:51,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:51,464 - basicLogger - DEBUG - 2024-03-18T13:40:46Z - fetching with 2024-03-18 13:40:51.463981
+2024-03-18 13:40:51,897 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:51,901 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:46Z')
+2024-03-18 13:40:51,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:51,901 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:40:56,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:40:56,465 - basicLogger - DEBUG - 2024-03-18T13:40:51Z - fetching with 2024-03-18 13:40:56.465106
+2024-03-18 13:40:56,894 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:40:56,899 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:51Z')
+2024-03-18 13:40:56,899 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:40:56,900 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:01,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:01,465 - basicLogger - DEBUG - 2024-03-18T13:40:56Z - fetching with 2024-03-18 13:41:01.465569
+2024-03-18 13:41:01,894 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:01,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:40:56Z')
+2024-03-18 13:41:01,898 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:01,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:06,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:06,466 - basicLogger - DEBUG - 2024-03-18T13:41:01Z - fetching with 2024-03-18 13:41:06.466389
+2024-03-18 13:41:06,895 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:06,898 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:01Z')
+2024-03-18 13:41:06,898 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:06,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:11,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:11,465 - basicLogger - DEBUG - 2024-03-18T13:41:06Z - fetching with 2024-03-18 13:41:11.465488
+2024-03-18 13:41:11,900 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:11,904 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:06Z')
+2024-03-18 13:41:11,904 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:11,904 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:16,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:16,462 - basicLogger - DEBUG - 2024-03-18T13:41:11Z - fetching with 2024-03-18 13:41:16.462808
+2024-03-18 13:41:16,901 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:16,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:11Z')
+2024-03-18 13:41:16,906 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:16,906 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:21,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:21,468 - basicLogger - DEBUG - 2024-03-18T13:41:16Z - fetching with 2024-03-18 13:41:21.468044
+2024-03-18 13:41:21,905 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:21,909 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:16Z')
+2024-03-18 13:41:21,909 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:21,909 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:26,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:26,466 - basicLogger - DEBUG - 2024-03-18T13:41:21Z - fetching with 2024-03-18 13:41:26.466017
+2024-03-18 13:41:26,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:26,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:21Z')
+2024-03-18 13:41:26,913 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:26,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:31,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:31,467 - basicLogger - DEBUG - 2024-03-18T13:41:26Z - fetching with 2024-03-18 13:41:31.467454
+2024-03-18 13:41:31,930 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:31,940 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:26Z')
+2024-03-18 13:41:31,941 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:31,941 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:36,468 - basicLogger - DEBUG - 2024-03-18T13:41:31Z - fetching with 2024-03-18 13:41:36.468753
+2024-03-18 13:41:36,946 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:36,950 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:31Z')
+2024-03-18 13:41:36,951 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:36,951 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:41,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:41,465 - basicLogger - DEBUG - 2024-03-18T13:41:36Z - fetching with 2024-03-18 13:41:41.465859
+2024-03-18 13:41:41,912 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:41,914 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:36Z')
+2024-03-18 13:41:41,915 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:41,915 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:46,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:46,468 - basicLogger - DEBUG - 2024-03-18T13:41:41Z - fetching with 2024-03-18 13:41:46.468452
+2024-03-18 13:41:46,900 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:46,903 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:41Z')
+2024-03-18 13:41:46,903 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:46,903 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:51,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:51,468 - basicLogger - DEBUG - 2024-03-18T13:41:46Z - fetching with 2024-03-18 13:41:51.468193
+2024-03-18 13:41:52,473 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:52,479 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:46Z')
+2024-03-18 13:41:52,479 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:52,479 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:41:56,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:41:56,467 - basicLogger - DEBUG - 2024-03-18T13:41:51Z - fetching with 2024-03-18 13:41:56.467033
+2024-03-18 13:41:57,070 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:41:57,075 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:51Z')
+2024-03-18 13:41:57,075 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:41:57,075 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:01,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:01,465 - basicLogger - DEBUG - 2024-03-18T13:41:56Z - fetching with 2024-03-18 13:42:01.465374
+2024-03-18 13:42:02,243 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:02,247 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:41:56Z')
+2024-03-18 13:42:02,247 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:02,247 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:06,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:06,467 - basicLogger - DEBUG - 2024-03-18T13:42:01Z - fetching with 2024-03-18 13:42:06.467357
+2024-03-18 13:42:07,037 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:07,040 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:01Z')
+2024-03-18 13:42:07,040 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:07,040 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:11,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:11,467 - basicLogger - DEBUG - 2024-03-18T13:42:06Z - fetching with 2024-03-18 13:42:11.467452
+2024-03-18 13:42:12,136 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:12,140 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:06Z')
+2024-03-18 13:42:12,141 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:12,141 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:16,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:16,467 - basicLogger - DEBUG - 2024-03-18T13:42:11Z - fetching with 2024-03-18 13:42:16.466951
+2024-03-18 13:42:17,010 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:17,013 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:11Z')
+2024-03-18 13:42:17,014 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:17,014 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:21,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:21,465 - basicLogger - DEBUG - 2024-03-18T13:42:16Z - fetching with 2024-03-18 13:42:21.465673
+2024-03-18 13:42:22,162 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:22,166 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:16Z')
+2024-03-18 13:42:22,167 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:22,167 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:26,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:26,463 - basicLogger - DEBUG - 2024-03-18T13:42:21Z - fetching with 2024-03-18 13:42:26.463843
+2024-03-18 13:42:27,060 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:27,065 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:21Z')
+2024-03-18 13:42:27,065 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:27,065 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:31,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:31,463 - basicLogger - DEBUG - 2024-03-18T13:42:26Z - fetching with 2024-03-18 13:42:31.463911
+2024-03-18 13:42:32,132 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:32,136 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:26Z')
+2024-03-18 13:42:32,136 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:32,136 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:36,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:36,466 - basicLogger - DEBUG - 2024-03-18T13:42:31Z - fetching with 2024-03-18 13:42:36.466220
+2024-03-18 13:42:37,129 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:37,132 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:31Z')
+2024-03-18 13:42:37,132 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:37,132 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:41,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:41,469 - basicLogger - DEBUG - 2024-03-18T13:42:36Z - fetching with 2024-03-18 13:42:41.469849
+2024-03-18 13:42:42,669 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:42,672 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:36Z')
+2024-03-18 13:42:42,672 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:42,672 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:46,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:46,470 - basicLogger - DEBUG - 2024-03-18T13:42:41Z - fetching with 2024-03-18 13:42:46.470188
+2024-03-18 13:42:47,103 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:47,110 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:41Z')
+2024-03-18 13:42:47,110 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:47,110 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:51,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:51,462 - basicLogger - DEBUG - 2024-03-18T13:42:46Z - fetching with 2024-03-18 13:42:51.462960
+2024-03-18 13:42:51,963 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:51,968 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:46Z')
+2024-03-18 13:42:51,968 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:51,968 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:42:56,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:42:56,467 - basicLogger - DEBUG - 2024-03-18T13:42:51Z - fetching with 2024-03-18 13:42:56.467787
+2024-03-18 13:42:57,281 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:42:57,284 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:51Z')
+2024-03-18 13:42:57,284 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:42:57,284 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:01,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:01,466 - basicLogger - DEBUG - 2024-03-18T13:42:56Z - fetching with 2024-03-18 13:43:01.466430
+2024-03-18 13:43:02,087 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:02,092 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:42:56Z')
+2024-03-18 13:43:02,092 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:02,092 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:06,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:06,467 - basicLogger - DEBUG - 2024-03-18T13:43:01Z - fetching with 2024-03-18 13:43:06.467316
+2024-03-18 13:43:07,175 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:07,176 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:01Z')
+2024-03-18 13:43:07,176 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:07,176 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:11,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:11,465 - basicLogger - DEBUG - 2024-03-18T13:43:06Z - fetching with 2024-03-18 13:43:11.465105
+2024-03-18 13:43:12,106 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:12,108 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:06Z')
+2024-03-18 13:43:12,108 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:12,108 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:16,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:16,467 - basicLogger - DEBUG - 2024-03-18T13:43:11Z - fetching with 2024-03-18 13:43:16.467760
+2024-03-18 13:43:17,145 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:17,149 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:11Z')
+2024-03-18 13:43:17,149 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:17,149 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:21,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:21,464 - basicLogger - DEBUG - 2024-03-18T13:43:16Z - fetching with 2024-03-18 13:43:21.464324
+2024-03-18 13:43:22,005 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:22,010 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:16Z')
+2024-03-18 13:43:22,010 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:22,010 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:26,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:26,465 - basicLogger - DEBUG - 2024-03-18T13:43:21Z - fetching with 2024-03-18 13:43:26.465393
+2024-03-18 13:43:26,931 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:26,932 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:21Z')
+2024-03-18 13:43:26,933 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:26,933 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:31,465 - basicLogger - DEBUG - 2024-03-18T13:43:26Z - fetching with 2024-03-18 13:43:31.465810
+2024-03-18 13:43:32,127 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:32,131 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:26Z')
+2024-03-18 13:43:32,131 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:32,131 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:36,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:36,474 - basicLogger - DEBUG - 2024-03-18T13:43:31Z - fetching with 2024-03-18 13:43:36.473978
+2024-03-18 13:43:37,689 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:37,691 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:31Z')
+2024-03-18 13:43:37,691 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:37,692 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:41,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:41,466 - basicLogger - DEBUG - 2024-03-18T13:43:36Z - fetching with 2024-03-18 13:43:41.465973
+2024-03-18 13:43:42,032 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:42,037 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:36Z')
+2024-03-18 13:43:42,037 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:42,038 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:46,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:46,468 - basicLogger - DEBUG - 2024-03-18T13:43:41Z - fetching with 2024-03-18 13:43:46.468920
+2024-03-18 13:43:47,272 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:47,277 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:41Z')
+2024-03-18 13:43:47,278 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:47,278 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:51,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:51,467 - basicLogger - DEBUG - 2024-03-18T13:43:46Z - fetching with 2024-03-18 13:43:51.467408
+2024-03-18 13:43:51,901 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:51,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:46Z')
+2024-03-18 13:43:51,905 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:51,905 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:43:56,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:43:56,462 - basicLogger - DEBUG - 2024-03-18T13:43:51Z - fetching with 2024-03-18 13:43:56.462913
+2024-03-18 13:43:56,893 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:43:56,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:51Z')
+2024-03-18 13:43:56,897 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:43:56,897 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:01,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:01,465 - basicLogger - DEBUG - 2024-03-18T13:43:56Z - fetching with 2024-03-18 13:44:01.465499
+2024-03-18 13:44:01,914 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:01,919 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:43:56Z')
+2024-03-18 13:44:01,919 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:01,920 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:06,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:06,463 - basicLogger - DEBUG - 2024-03-18T13:44:01Z - fetching with 2024-03-18 13:44:06.463369
+2024-03-18 13:44:06,895 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:06,898 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:01Z')
+2024-03-18 13:44:06,899 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:06,899 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:11,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:11,468 - basicLogger - DEBUG - 2024-03-18T13:44:06Z - fetching with 2024-03-18 13:44:11.468116
+2024-03-18 13:44:11,903 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:11,907 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:06Z')
+2024-03-18 13:44:11,907 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:11,907 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:16,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:16,463 - basicLogger - DEBUG - 2024-03-18T13:44:11Z - fetching with 2024-03-18 13:44:16.463801
+2024-03-18 13:44:16,901 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:16,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:11Z')
+2024-03-18 13:44:16,905 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:16,905 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:21,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:21,464 - basicLogger - DEBUG - 2024-03-18T13:44:16Z - fetching with 2024-03-18 13:44:21.464068
+2024-03-18 13:44:21,899 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:21,904 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:16Z')
+2024-03-18 13:44:21,904 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:21,905 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:26,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:26,465 - basicLogger - DEBUG - 2024-03-18T13:44:21Z - fetching with 2024-03-18 13:44:26.465553
+2024-03-18 13:44:26,888 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:26,890 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:21Z')
+2024-03-18 13:44:26,890 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:26,890 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:31,459 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:31,461 - basicLogger - DEBUG - 2024-03-18T13:44:26Z - fetching with 2024-03-18 13:44:31.461136
+2024-03-18 13:44:31,885 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:31,887 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:26Z')
+2024-03-18 13:44:31,888 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:31,888 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:36,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:36,470 - basicLogger - DEBUG - 2024-03-18T13:44:31Z - fetching with 2024-03-18 13:44:36.470499
+2024-03-18 13:44:36,919 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:36,924 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:31Z')
+2024-03-18 13:44:36,924 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:36,925 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:41,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:41,463 - basicLogger - DEBUG - 2024-03-18T13:44:36Z - fetching with 2024-03-18 13:44:41.463636
+2024-03-18 13:44:41,899 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:41,903 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:36Z')
+2024-03-18 13:44:41,903 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:41,903 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:46,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:46,464 - basicLogger - DEBUG - 2024-03-18T13:44:41Z - fetching with 2024-03-18 13:44:46.464783
+2024-03-18 13:44:46,895 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:46,901 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:41Z')
+2024-03-18 13:44:46,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:46,901 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:51,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:51,467 - basicLogger - DEBUG - 2024-03-18T13:44:46Z - fetching with 2024-03-18 13:44:51.467770
+2024-03-18 13:44:51,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:51,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:46Z')
+2024-03-18 13:44:51,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:51,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:44:56,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:44:56,466 - basicLogger - DEBUG - 2024-03-18T13:44:51Z - fetching with 2024-03-18 13:44:56.466511
+2024-03-18 13:44:56,911 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:44:56,916 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:51Z')
+2024-03-18 13:44:56,916 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:44:56,916 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:01,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:01,467 - basicLogger - DEBUG - 2024-03-18T13:44:56Z - fetching with 2024-03-18 13:45:01.467882
+2024-03-18 13:45:01,911 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:01,915 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:44:56Z')
+2024-03-18 13:45:01,916 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:01,916 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:06,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:06,467 - basicLogger - DEBUG - 2024-03-18T13:45:01Z - fetching with 2024-03-18 13:45:06.467405
+2024-03-18 13:45:06,905 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:06,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:01Z')
+2024-03-18 13:45:06,910 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:06,910 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:11,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:11,467 - basicLogger - DEBUG - 2024-03-18T13:45:06Z - fetching with 2024-03-18 13:45:11.467864
+2024-03-18 13:45:11,904 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:11,908 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:06Z')
+2024-03-18 13:45:11,909 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:11,909 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:16,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:16,466 - basicLogger - DEBUG - 2024-03-18T13:45:11Z - fetching with 2024-03-18 13:45:16.466612
+2024-03-18 13:45:16,900 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:16,905 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:11Z')
+2024-03-18 13:45:16,905 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:16,906 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:21,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:21,467 - basicLogger - DEBUG - 2024-03-18T13:45:16Z - fetching with 2024-03-18 13:45:21.467415
+2024-03-18 13:45:21,905 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:21,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:16Z')
+2024-03-18 13:45:21,911 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:21,911 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:26,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:26,461 - basicLogger - DEBUG - 2024-03-18T13:45:21Z - fetching with 2024-03-18 13:45:26.461446
+2024-03-18 13:45:26,881 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:26,882 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:21Z')
+2024-03-18 13:45:26,882 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:26,882 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:31,464 - basicLogger - DEBUG - 2024-03-18T13:45:26Z - fetching with 2024-03-18 13:45:31.464956
+2024-03-18 13:45:31,891 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:31,894 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:26Z')
+2024-03-18 13:45:31,894 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:31,894 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:36,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:36,471 - basicLogger - DEBUG - 2024-03-18T13:45:31Z - fetching with 2024-03-18 13:45:36.471906
+2024-03-18 13:45:36,913 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:36,917 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:31Z')
+2024-03-18 13:45:36,917 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:36,917 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:41,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:41,468 - basicLogger - DEBUG - 2024-03-18T13:45:36Z - fetching with 2024-03-18 13:45:41.468000
+2024-03-18 13:45:41,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:41,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:36Z')
+2024-03-18 13:45:41,913 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:41,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:46,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:46,468 - basicLogger - DEBUG - 2024-03-18T13:45:41Z - fetching with 2024-03-18 13:45:46.468107
+2024-03-18 13:45:46,906 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:46,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:41Z')
+2024-03-18 13:45:46,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:46,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:51,459 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:51,462 - basicLogger - DEBUG - 2024-03-18T13:45:46Z - fetching with 2024-03-18 13:45:51.462102
+2024-03-18 13:45:51,893 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:51,898 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:46Z')
+2024-03-18 13:45:51,898 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:51,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:45:56,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:45:56,466 - basicLogger - DEBUG - 2024-03-18T13:45:51Z - fetching with 2024-03-18 13:45:56.466849
+2024-03-18 13:45:57,158 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:45:57,163 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:51Z')
+2024-03-18 13:45:57,163 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:45:57,163 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:01,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:01,466 - basicLogger - DEBUG - 2024-03-18T13:45:56Z - fetching with 2024-03-18 13:46:01.466367
+2024-03-18 13:46:01,912 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:01,915 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:45:56Z')
+2024-03-18 13:46:01,915 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:01,915 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:06,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:06,463 - basicLogger - DEBUG - 2024-03-18T13:46:01Z - fetching with 2024-03-18 13:46:06.463710
+2024-03-18 13:46:06,905 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:06,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:01Z')
+2024-03-18 13:46:06,911 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:06,911 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:11,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:11,466 - basicLogger - DEBUG - 2024-03-18T13:46:06Z - fetching with 2024-03-18 13:46:11.466124
+2024-03-18 13:46:11,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:11,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:06Z')
+2024-03-18 13:46:11,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:11,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:16,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:16,462 - basicLogger - DEBUG - 2024-03-18T13:46:11Z - fetching with 2024-03-18 13:46:16.462803
+2024-03-18 13:46:16,900 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:16,903 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:11Z')
+2024-03-18 13:46:16,903 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:16,903 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:21,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:21,464 - basicLogger - DEBUG - 2024-03-18T13:46:16Z - fetching with 2024-03-18 13:46:21.464200
+2024-03-18 13:46:21,898 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:21,901 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:16Z')
+2024-03-18 13:46:21,901 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:21,901 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:26,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:26,465 - basicLogger - DEBUG - 2024-03-18T13:46:21Z - fetching with 2024-03-18 13:46:26.465174
+2024-03-18 13:46:26,880 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:26,881 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:21Z')
+2024-03-18 13:46:26,882 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:26,882 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:31,465 - basicLogger - DEBUG - 2024-03-18T13:46:26Z - fetching with 2024-03-18 13:46:31.465452
+2024-03-18 13:46:31,899 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:31,904 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:26Z')
+2024-03-18 13:46:31,904 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:31,904 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:36,467 - basicLogger - DEBUG - 2024-03-18T13:46:31Z - fetching with 2024-03-18 13:46:36.467486
+2024-03-18 13:46:36,912 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:36,916 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:31Z')
+2024-03-18 13:46:36,916 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:36,916 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:41,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:41,466 - basicLogger - DEBUG - 2024-03-18T13:46:36Z - fetching with 2024-03-18 13:46:41.466940
+2024-03-18 13:46:41,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:41,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:36Z')
+2024-03-18 13:46:41,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:41,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:46,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:46,467 - basicLogger - DEBUG - 2024-03-18T13:46:41Z - fetching with 2024-03-18 13:46:46.467276
+2024-03-18 13:46:46,956 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:46,961 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:41Z')
+2024-03-18 13:46:46,961 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:46,961 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:51,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:51,464 - basicLogger - DEBUG - 2024-03-18T13:46:46Z - fetching with 2024-03-18 13:46:51.464147
+2024-03-18 13:46:51,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:51,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:46Z')
+2024-03-18 13:46:51,913 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:51,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:46:56,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:46:56,466 - basicLogger - DEBUG - 2024-03-18T13:46:51Z - fetching with 2024-03-18 13:46:56.466040
+2024-03-18 13:46:56,909 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:46:56,914 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:51Z')
+2024-03-18 13:46:56,914 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:46:56,914 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:01,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:01,463 - basicLogger - DEBUG - 2024-03-18T13:46:56Z - fetching with 2024-03-18 13:47:01.463878
+2024-03-18 13:47:01,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:01,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:46:56Z')
+2024-03-18 13:47:01,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:01,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:06,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:06,468 - basicLogger - DEBUG - 2024-03-18T13:47:01Z - fetching with 2024-03-18 13:47:06.468195
+2024-03-18 13:47:06,913 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:06,918 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:01Z')
+2024-03-18 13:47:06,918 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:06,918 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:11,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:11,467 - basicLogger - DEBUG - 2024-03-18T13:47:06Z - fetching with 2024-03-18 13:47:11.467076
+2024-03-18 13:47:11,897 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:11,902 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:06Z')
+2024-03-18 13:47:11,902 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:11,902 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:16,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:16,468 - basicLogger - DEBUG - 2024-03-18T13:47:11Z - fetching with 2024-03-18 13:47:16.468266
+2024-03-18 13:47:16,923 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:16,929 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:11Z')
+2024-03-18 13:47:16,929 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:16,929 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:21,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:21,465 - basicLogger - DEBUG - 2024-03-18T13:47:16Z - fetching with 2024-03-18 13:47:21.465425
+2024-03-18 13:47:22,475 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:22,479 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:16Z')
+2024-03-18 13:47:22,479 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:22,479 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:26,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:26,462 - basicLogger - DEBUG - 2024-03-18T13:47:21Z - fetching with 2024-03-18 13:47:26.462914
+2024-03-18 13:47:27,189 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:27,190 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:21Z')
+2024-03-18 13:47:27,190 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:27,190 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:31,465 - basicLogger - DEBUG - 2024-03-18T13:47:26Z - fetching with 2024-03-18 13:47:31.464996
+2024-03-18 13:47:32,055 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:32,059 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:26Z')
+2024-03-18 13:47:32,059 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:32,059 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:36,467 - basicLogger - DEBUG - 2024-03-18T13:47:31Z - fetching with 2024-03-18 13:47:36.467676
+2024-03-18 13:47:37,150 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:37,155 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:31Z')
+2024-03-18 13:47:37,155 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:37,155 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:41,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:41,463 - basicLogger - DEBUG - 2024-03-18T13:47:36Z - fetching with 2024-03-18 13:47:41.463754
+2024-03-18 13:47:42,017 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:42,020 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:36Z')
+2024-03-18 13:47:42,021 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:42,021 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:46,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:46,463 - basicLogger - DEBUG - 2024-03-18T13:47:41Z - fetching with 2024-03-18 13:47:46.463175
+2024-03-18 13:47:46,894 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:46,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:41Z')
+2024-03-18 13:47:46,898 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:46,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:51,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:51,467 - basicLogger - DEBUG - 2024-03-18T13:47:46Z - fetching with 2024-03-18 13:47:51.467025
+2024-03-18 13:47:51,899 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:51,903 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:46Z')
+2024-03-18 13:47:51,903 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:51,903 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:47:56,460 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:47:56,461 - basicLogger - DEBUG - 2024-03-18T13:47:51Z - fetching with 2024-03-18 13:47:56.461560
+2024-03-18 13:47:56,893 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:47:56,899 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:51Z')
+2024-03-18 13:47:56,899 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:47:56,899 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:01,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:01,467 - basicLogger - DEBUG - 2024-03-18T13:47:56Z - fetching with 2024-03-18 13:48:01.467668
+2024-03-18 13:48:01,910 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:01,916 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:47:56Z')
+2024-03-18 13:48:01,916 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:01,916 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:06,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:06,467 - basicLogger - DEBUG - 2024-03-18T13:48:01Z - fetching with 2024-03-18 13:48:06.467927
+2024-03-18 13:48:07,144 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:07,148 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:01Z')
+2024-03-18 13:48:07,149 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:07,149 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:11,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:11,465 - basicLogger - DEBUG - 2024-03-18T13:48:06Z - fetching with 2024-03-18 13:48:11.465359
+2024-03-18 13:48:11,906 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:11,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:06Z')
+2024-03-18 13:48:11,911 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:11,911 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:16,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:16,467 - basicLogger - DEBUG - 2024-03-18T13:48:11Z - fetching with 2024-03-18 13:48:16.467101
+2024-03-18 13:48:16,908 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:16,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:11Z')
+2024-03-18 13:48:16,913 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:16,913 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:21,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:21,466 - basicLogger - DEBUG - 2024-03-18T13:48:16Z - fetching with 2024-03-18 13:48:21.466697
+2024-03-18 13:48:22,627 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:22,630 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:16Z')
+2024-03-18 13:48:22,630 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:22,630 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:26,459 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:26,461 - basicLogger - DEBUG - 2024-03-18T13:48:21Z - fetching with 2024-03-18 13:48:26.461899
+2024-03-18 13:48:27,013 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:27,014 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:21Z')
+2024-03-18 13:48:27,014 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:27,014 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:31,465 - basicLogger - DEBUG - 2024-03-18T13:48:26Z - fetching with 2024-03-18 13:48:31.465149
+2024-03-18 13:48:32,259 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:32,265 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:26Z')
+2024-03-18 13:48:32,265 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:32,265 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:36,467 - basicLogger - DEBUG - 2024-03-18T13:48:31Z - fetching with 2024-03-18 13:48:36.467726
+2024-03-18 13:48:37,134 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:37,138 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:31Z')
+2024-03-18 13:48:37,138 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:37,139 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:41,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:41,468 - basicLogger - DEBUG - 2024-03-18T13:48:36Z - fetching with 2024-03-18 13:48:41.468314
+2024-03-18 13:48:42,195 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:42,312 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:36Z')
+2024-03-18 13:48:42,312 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:42,312 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:46,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:46,468 - basicLogger - DEBUG - 2024-03-18T13:48:41Z - fetching with 2024-03-18 13:48:46.468918
+2024-03-18 13:48:47,176 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:47,181 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:41Z')
+2024-03-18 13:48:47,182 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:47,182 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:51,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:51,470 - basicLogger - DEBUG - 2024-03-18T13:48:46Z - fetching with 2024-03-18 13:48:51.470426
+2024-03-18 13:48:52,187 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:52,192 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:46Z')
+2024-03-18 13:48:52,193 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:52,193 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:48:56,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:48:56,468 - basicLogger - DEBUG - 2024-03-18T13:48:51Z - fetching with 2024-03-18 13:48:56.468204
+2024-03-18 13:48:57,140 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:48:57,145 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:51Z')
+2024-03-18 13:48:57,145 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:48:57,146 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:01,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:01,468 - basicLogger - DEBUG - 2024-03-18T13:48:56Z - fetching with 2024-03-18 13:49:01.468617
+2024-03-18 13:49:02,158 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:02,164 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:48:56Z')
+2024-03-18 13:49:02,164 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:02,164 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:06,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:06,469 - basicLogger - DEBUG - 2024-03-18T13:49:01Z - fetching with 2024-03-18 13:49:06.469773
+2024-03-18 13:49:07,044 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:07,050 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:01Z')
+2024-03-18 13:49:07,050 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:07,051 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:11,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:11,464 - basicLogger - DEBUG - 2024-03-18T13:49:06Z - fetching with 2024-03-18 13:49:11.464377
+2024-03-18 13:49:12,128 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:12,133 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:06Z')
+2024-03-18 13:49:12,134 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:12,134 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:16,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:16,464 - basicLogger - DEBUG - 2024-03-18T13:49:11Z - fetching with 2024-03-18 13:49:16.464160
+2024-03-18 13:49:17,507 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:17,512 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:11Z')
+2024-03-18 13:49:17,512 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:17,512 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:21,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:21,469 - basicLogger - DEBUG - 2024-03-18T13:49:16Z - fetching with 2024-03-18 13:49:21.469561
+2024-03-18 13:49:21,929 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:21,933 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:16Z')
+2024-03-18 13:49:21,933 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:21,933 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:26,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:26,473 - basicLogger - DEBUG - 2024-03-18T13:49:21Z - fetching with 2024-03-18 13:49:26.473846
+2024-03-18 13:49:26,909 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:26,910 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:21Z')
+2024-03-18 13:49:26,910 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:26,910 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:31,465 - basicLogger - DEBUG - 2024-03-18T13:49:26Z - fetching with 2024-03-18 13:49:31.465440
+2024-03-18 13:49:31,892 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:31,897 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:26Z')
+2024-03-18 13:49:31,897 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:31,898 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:36,467 - basicLogger - DEBUG - 2024-03-18T13:49:31Z - fetching with 2024-03-18 13:49:36.467156
+2024-03-18 13:49:36,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:36,911 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:31Z')
+2024-03-18 13:49:36,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:36,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:41,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:41,468 - basicLogger - DEBUG - 2024-03-18T13:49:36Z - fetching with 2024-03-18 13:49:41.468220
+2024-03-18 13:49:41,921 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:41,926 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:36Z')
+2024-03-18 13:49:41,926 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:41,926 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:46,462 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:46,465 - basicLogger - DEBUG - 2024-03-18T13:49:41Z - fetching with 2024-03-18 13:49:46.465607
+2024-03-18 13:49:46,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:46,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:41Z')
+2024-03-18 13:49:46,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:46,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:51,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:51,467 - basicLogger - DEBUG - 2024-03-18T13:49:46Z - fetching with 2024-03-18 13:49:51.467895
+2024-03-18 13:49:51,930 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:51,935 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:46Z')
+2024-03-18 13:49:51,935 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:51,935 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:49:56,463 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:49:56,465 - basicLogger - DEBUG - 2024-03-18T13:49:51Z - fetching with 2024-03-18 13:49:56.465600
+2024-03-18 13:49:56,912 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:49:56,917 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:51Z')
+2024-03-18 13:49:56,917 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:49:56,917 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:01,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:01,464 - basicLogger - DEBUG - 2024-03-18T13:49:56Z - fetching with 2024-03-18 13:50:01.464440
+2024-03-18 13:50:01,907 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:01,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:49:56Z')
+2024-03-18 13:50:01,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:01,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:06,469 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:06,479 - basicLogger - DEBUG - 2024-03-18T13:50:01Z - fetching with 2024-03-18 13:50:06.479811
+2024-03-18 13:50:06,928 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:06,933 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:01Z')
+2024-03-18 13:50:06,934 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:06,934 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:11,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:11,465 - basicLogger - DEBUG - 2024-03-18T13:50:06Z - fetching with 2024-03-18 13:50:11.465492
+2024-03-18 13:50:11,902 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:11,906 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:06Z')
+2024-03-18 13:50:11,907 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:11,907 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:16,465 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:16,468 - basicLogger - DEBUG - 2024-03-18T13:50:11Z - fetching with 2024-03-18 13:50:16.468182
+2024-03-18 13:50:17,296 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:17,301 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:11Z')
+2024-03-18 13:50:17,301 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:17,302 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:21,461 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:21,464 - basicLogger - DEBUG - 2024-03-18T13:50:16Z - fetching with 2024-03-18 13:50:21.464197
+2024-03-18 13:50:22,599 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:22,603 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:16Z')
+2024-03-18 13:50:22,603 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:22,603 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:26,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:26,467 - basicLogger - DEBUG - 2024-03-18T13:50:21Z - fetching with 2024-03-18 13:50:26.467635
+2024-03-18 13:50:27,272 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:27,275 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:21Z')
+2024-03-18 13:50:27,275 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:27,275 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:31,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:31,467 - basicLogger - DEBUG - 2024-03-18T13:50:26Z - fetching with 2024-03-18 13:50:31.467781
+2024-03-18 13:50:31,909 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:31,913 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:26Z')
+2024-03-18 13:50:31,914 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:31,914 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:36,464 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:36,466 - basicLogger - DEBUG - 2024-03-18T13:50:31Z - fetching with 2024-03-18 13:50:36.466695
+2024-03-18 13:50:36,915 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:37,018 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:31Z')
+2024-03-18 13:50:37,019 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:37,019 - basicLogger - INFO - Periodic Processing Completed
+2024-03-18 13:50:41,466 - basicLogger - INFO - Starting Periodic Processing
+2024-03-18 13:50:41,473 - basicLogger - DEBUG - 2024-03-18T13:50:36Z - fetching with 2024-03-18 13:50:41.473708
+2024-03-18 13:50:41,910 - basicLogger - INFO - {<Response [200]>}
+2024-03-18 13:50:41,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:36Z')
+2024-03-18 13:50:41,912 - basicLogger - INFO - Database updated with new statistics.
+2024-03-18 13:50:41,912 - basicLogger - INFO - Periodic Processing Completed

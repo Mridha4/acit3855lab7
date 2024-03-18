@@ -5,12 +5,25 @@ import sqlite3, logging.config, yaml
 from flask import Flask, jsonify
 import sqlalchemy
 from sqlalchemy import create_engine, select
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, Float, DateTime
 from sqlalchemy.orm import sessionmaker
 from base import Base  # Assuming this defines your SQLAlchemy Base
 from stat_class import WorkoutStats  # Assuming this defines your data model
 import pytz
 import connexion
 
+Base = declarative_base()
+
+class WorkoutStats(Base):
+    __tablename__ = 'statistics'
+    id = Column(Integer, primary_key=True)
+    num_activity_logs = Column(Integer)
+    average_duration = Column(Float)
+    num_health_metrics = Column(Integer)
+    average_heart_rate = Column(Float)
+    last_updated = Column(DateTime)
+    
 # Load logging configuration
 with open('log_conf.yml', 'r') as f:
     log_config = yaml.safe_load(f.read())
