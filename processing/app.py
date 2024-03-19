@@ -25,12 +25,12 @@ class WorkoutStats(Base):
     last_updated = Column(DateTime)
     
 # Load logging configuration
-with open('log_conf.yml', 'r') as f:
-    log_config = yaml.safe_load(f.read())
-logging.config.dictConfig(log_config)
+# with open('log_conf.yml', 'r') as f:
+#     log_config = yaml.safe_load(f.read())
+# logging.config.dictConfig(log_config)
 
 # Create a logger object
-logger = logging.getLogger('basicLogger')
+# logger = logging.getLogger('basicLogger')
 
 # Load application configuration
 with open('app_conf.yml', 'r') as f:
@@ -41,7 +41,7 @@ Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 def populate_stats():
-    logger.info("Starting Periodic Processing")
+    # logger.info("Starting Periodic Processing")
     session = DB_SESSION()
 
     # Fetch the last update time from the database
@@ -58,18 +58,20 @@ def populate_stats():
     current_datetime = datetime.now()
     current_datetime_formatted = current_datetime.strftime('%Y-%m-%dT%H:%M:%SZ')
     # Fetch new event data from the Storage Service
-    logger.debug(f"{last_updated} - fetching with {current_datetime}")
+    # logger.debug(f"{last_updated} - fetching with {current_datetime}")
     health_metrics_response = requests.get(
         f"{app_config['eventstore']['url']}/health/metric",
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime_formatted})
+    print(f"{app_config['eventstore']['url']}/health/metric")
     activity_logs_response = requests.get(
         f"{app_config['eventstore']['url']}/activity/log",
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime_formatted})
-    logger.info({activity_logs_response})
+    print(activity_logs_response.status_code)
+    # logger.info({activity_logs_response})
     if activity_logs_response.status_code == 200 and health_metrics_response.status_code == 200:
         activity_logs = activity_logs_response.json()
         health_metrics = health_metrics_response.json()
-
+        print(activity_logs, health_metrics)
 	# Process statistics from responses
         num_activity_logs += len(activity_logs)
         num_health_metrics += len(health_metrics)
@@ -93,20 +95,21 @@ def populate_stats():
             average_heart_rate=average_heart_rate,
             last_updated=current_datetime
         )
+        session.add(new_stats)
+        session.commit()
+        logger.debug(f'New Values: {id, num_activity_logs, num_health_metrics, average_duration, average_heart_rate, last_updated}')
+        session.close()
     else:
-        logger.error("errors")
-    session.add(new_stats)
-    session.commit()
-    logger.debug(f'New Values: {id, num_activity_logs, num_health_metrics, average_duration, average_heart_rate, last_updated}')
-    session.close()
-    logger.info("Database updated with new statistics.")
+    #     logger.error("errors")
+        pass
+    # logger.info("Database updated with new statistics.")
 
-    logger.info("Periodic Processing Completed")
+    # logger.info("Periodic Processing Completed")
 
 def get_stats():
     """Retrieves the latest statistics from the SQLite database and returns them as a JSON response."""
     session = DB_SESSION()
-    logger.info("Fetching the latest statistics")
+    # logger.info("Fetching the latest statistics")
     current_stats = session.query(WorkoutStats).order_by(WorkoutStats.last_updated.desc()).first()
     if current_stats:
         stats_dict = {
@@ -118,7 +121,7 @@ def get_stats():
         }
         return stats_dict, 200
     else:
-        logger.error("No statistics found.")
+        # logger.error("No statistics found.")
         return {"error": "No statistics found."}, 404
 
 def init_scheduler():
@@ -126,7 +129,7 @@ def init_scheduler():
     sched = BackgroundScheduler(daemon=True, timezone=pytz.utc)
     sched.add_job(populate_stats, 'interval', seconds=app_config['scheduler']['period_sec'])
     sched.start()
-    logger.info("Scheduler has been initialized and started.")
+    # logger.info("Scheduler has been initialized and started.")
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml", strict_validation=True, validate_responses=True)

@@ -14,6 +14,7 @@ import json
 from pykafka import KafkaClient
 from threading import Thread
 from pykafka.common import OffsetType
+from datetime import datetime, timezone
 
 
 
@@ -73,8 +74,8 @@ def get_physical_activity_logs(start_timestamp, end_timestamp):
     """Gets physical activity logs between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = start_timestamp
-        end_datetime = end_timestamp
+        start_datetime = start_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
+        end_datetime = end_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(PhysicalActivityLog).filter(
             and_(PhysicalActivityLog.timestamp >= start_datetime,
@@ -92,8 +93,8 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
     """Gets health metric readings between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = start_timestamp
-        end_datetime = end_timestamp
+        start_datetime = start_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
+        end_datetime = end_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(HealthMetricReading).filter(
             and_(HealthMetricReading.timestamp >= start_datetime,
