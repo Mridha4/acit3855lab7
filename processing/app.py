@@ -70,13 +70,22 @@ def populate_stats():
         activity_logs = activity_logs_response.json()
         health_metrics = health_metrics_response.json()
 
-        # Process statistics from responses
+	# Process statistics from responses
         num_activity_logs += len(activity_logs)
         num_health_metrics += len(health_metrics)
-        average_duration = sum(log['duration'] for log in activity_logs) / len(activity_logs) if activity_logs else 0
-        average_heart_rate = sum(metric['value'] for metric in health_metrics if metric['metricType'] == 'Heart Rate') / len(health_metrics) if health_metrics else 0
+        #average_duration = sum(log['duration'] for log in activity_logs) / len(activity_logs) if activity_logs else 0
+        acti_log = 0
+        for log in activity_logs:
+            acti_log += int(log['duration'])
+        average_duration = acti_log / len(activity_logs)
+        #average_heart_rate = sum(metric['value'] for metric in health_metrics if metric['metricType'] == 'Heart Rate') / len(health_metrics) if health_metrics else 0
+        avg_dur = 0
+        for metric in health_metrics:
+            if metric['metricType'] == 'Heart Rate':
+                avg_dur += int(metric['value'])
+        average_heart_rate = avg_dur / len(health_metrics)
 
-        # Initialize processed stats for adding to db
+	# Initialize processed stats for adding to db
         new_stats = WorkoutStats(
             num_activity_logs=num_activity_logs,
             average_duration=average_duration,
@@ -85,7 +94,7 @@ def populate_stats():
             last_updated=current_datetime
         )
     else:
-        logger.error("errors")    
+        logger.error("errors")
     session.add(new_stats)
     session.commit()
     logger.debug(f'New Values: {id, num_activity_logs, num_health_metrics, average_duration, average_heart_rate, last_updated}')

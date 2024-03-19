@@ -45,7 +45,7 @@ def log_physical_activity(body):
         activity_type=body['activityType'],
         duration=body['duration'],
         trace_id=body['trace_id'],
-        timestamp=body['timestamp'] + "Z"
+        timestamp=body['timestamp']
     )
     session.add(pa)
     session.commit()
@@ -61,7 +61,7 @@ def update_health_metric(body):
         metric_type=body['metricType'],
         value=body['value'],
         trace_id=body['trace_id'],
-        timestamp=body['timestamp'] + "Z"
+        timestamp=body['timestamp']
     )
     session.add(hm)
     session.commit()
@@ -140,4 +140,4 @@ if __name__ == "__main__":
     # t1.setDaemon(True)
     t1.start()
     
-    app.run(port=8090)
+    app.run(host='0.0.0.0', port=8090)

@@ -1,8 +1,8 @@
 version: 1
 eventstore1:
-  url: http://localhost:8090/activity/log
+  url: http://kafka3855.eastus.cloudapp.azure.com:8090/activity/log
 eventstore2:
-  url: http://localhost:8090/health/metric
+  url: http://kafka3855.eastus.cloudapp.azure.com:8090/health/metric
 
 events:
   hostname: kafka3855.eastus.cloudapp.azure.com
