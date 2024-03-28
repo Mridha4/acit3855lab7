@@ -8,6 +8,7 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, Float, DateTime
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import declarative_base
 from base import Base  # Assuming this defines your SQLAlchemy Base
 from stat_class import WorkoutStats  # Assuming this defines your data model
 import pytz
@@ -47,16 +48,16 @@ def populate_stats():
     # Fetch the last update time from the database
     current_stats = session.query(WorkoutStats).order_by(WorkoutStats.last_updated.desc()).first()
     if current_stats:
-        last_updated = current_stats.last_updated.strftime('%Y-%m-%dT%H:%M:%SZ')
+        last_updated = current_stats.last_updated.strftime("%Y-%m-%dT%H:%M:%S")
         num_activity_logs = current_stats.num_activity_logs
         num_health_metrics = current_stats.num_health_metrics
     else: 
-        last_updated = datetime.strptime('2023-01-01T00:00:00Z', '%Y-%m-%dT%H:%M:%SZ')
+        last_updated = datetime.strptime('2023-01-01T00:00:00Z', '%Y-%m-%dT%H:%M:%S')
         num_activity_logs = 0
         num_health_metrics = 0
 
     current_datetime = datetime.now()
-    current_datetime_formatted = current_datetime.strftime('%Y-%m-%dT%H:%M:%SZ')
+    current_datetime_formatted = current_datetime.strftime("%Y-%m-%dT%H:%M:%S")
     # Fetch new event data from the Storage Service
     # logger.debug(f"{last_updated} - fetching with {current_datetime}")
     health_metrics_response = requests.get(
@@ -117,7 +118,7 @@ def get_stats():
             "average_duration": current_stats.average_duration,
             "num_health_metrics": current_stats.num_health_metrics,
             "average_heart_rate": current_stats.average_heart_rate,
-            "last_updated": current_stats.last_updated.strftime('%Y-%m-%dT%H:%M:%SZ')
+            "last_updated": current_stats.last_updated.strftime("%Y-%m-%dT%H:%M:%S")
         }
         return stats_dict, 200
     else:

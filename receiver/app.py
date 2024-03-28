@@ -39,7 +39,7 @@ def log_physical_activity(body):
     global event_data
     event_data["activity_log_count"] += 1
     event_data["last_five_activity_logs"].insert(0, {
-        "received_timestamp": datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f"),
+        "received_timestamp": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
         "msg_data": body
     })
     event_data["last_five_activity_logs"] = event_data["last_five_activity_logs"][:5]
@@ -62,7 +62,7 @@ def update_health_metric(body):
     body['trace_id'] = trace_id
     event_data["health_metric_count"] += 1
     event_data["last_five_health_metrics"].insert(0, {
-        "received_timestamp": datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f"),
+        "received_timestamp": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
         "msg_data": body
     })
     event_data["last_five_health_metrics"] = event_data["last_five_health_metrics"][:5]

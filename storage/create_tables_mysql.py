@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS physical_activity_log (
     duration INT NOT NULL,
     trace_id VARCHAR(36) NOT NULL,
     timestamp VARCHAR(100) NOT NULL,
-    date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    date_created DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,
     CONSTRAINT physical_activity_pk PRIMARY KEY (id))
 ''')
 
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS health_metric_reading (
     value INT NOT NULL,
     trace_id VARCHAR(36) NOT NULL,
     timestamp VARCHAR(100) NOT NULL,
-    date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    date_created DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,
     CONSTRAINT health_metric_pk PRIMARY KEY (id))
 ''')
 

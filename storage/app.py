@@ -41,12 +41,13 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 def log_physical_activity(body):
     """Receives a physical activity log"""
     session = DB_SESSION()
+    processed_time = body['timestamp'].strftime("%Y-%m-%dT%H:%M:%S")
     pa = PhysicalActivityLog(
         user_id=body['userId'],
         activity_type=body['activityType'],
         duration=body['duration'],
         trace_id=body['trace_id'],
-        timestamp=body['timestamp']
+        timestamp=processed_time
     )
     session.add(pa)
     session.commit()
@@ -57,12 +58,13 @@ def log_physical_activity(body):
 def update_health_metric(body):
     """Receives a health metric update"""
     session = DB_SESSION()
+    processed_time = body['timestamp'].strftime("%Y-%m-%dT%H:%M:%S")
     hm = HealthMetricReading(
         user_id=body['userId'],
         metric_type=body['metricType'],
         value=body['value'],
         trace_id=body['trace_id'],
-        timestamp=body['timestamp']
+        timestamp=processed_time
     )
     session.add(hm)
     session.commit()
@@ -74,8 +76,8 @@ def get_physical_activity_logs(start_timestamp, end_timestamp):
     """Gets physical activity logs between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = start_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
-        end_datetime = end_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
+        start_datetime = start_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+        end_datetime = end_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(PhysicalActivityLog).filter(
             and_(PhysicalActivityLog.timestamp >= start_datetime,
@@ -93,8 +95,8 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
     """Gets health metric readings between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = start_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
-        end_datetime = end_timestamp.strftime('%Y-%m-%dT%H:%M:%SZ')
+        start_datetime = start_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+        end_datetime = end_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(HealthMetricReading).filter(
             and_(HealthMetricReading.timestamp >= start_datetime,

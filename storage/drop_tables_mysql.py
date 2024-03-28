@@ -1,5 +1,4 @@
 import mysql.connector
-
 # Connect to the MySQL database
 conn = mysql.connector.connect(user='user', password='password', host='kafka3855.eastus.cloudapp.azure.com', database='events')
 
