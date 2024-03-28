@@ -33,6 +33,6 @@ class PhysicalActivityLog(Base):
             'duration': self.duration,
             'timestamp': self.timestamp,
             'trace_id': self.trace_id,
-            'dateCreated': self.date_created.strftime('%Y-%m-%dT%H:%M:%SZ') if self.date_created else None
+            'dateCreated': self.date_created.strftime('%Y-%m-%dT%H:%M:%S') if self.date_created else None
         }
         return dict_representation
