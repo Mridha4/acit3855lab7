@@ -74,7 +74,7 @@ def populate_stats():
     if activity_logs_response.status_code == 200 and health_metrics_response.status_code == 200:
         activity_logs = activity_logs_response.json()
         health_metrics = health_metrics_response.json()
-        print(activity_logs[0], health_metrics[0])
+        #print(activity_logs[0], health_metrics[0])
 	# # Process statistics from responses
     #     num_activity_logs += len(activity_logs)
     #     num_health_metrics += len(health_metrics)
