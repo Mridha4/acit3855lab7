@@ -1,6 +1,6 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 import requests
-from datetime import datetime, timezone
+from datetime import datetime
 import sqlite3, logging.config, yaml
 from flask import Flask, jsonify
 import sqlalchemy
@@ -10,6 +10,8 @@ from sqlalchemy import Column, Integer, Float, DateTime
 from sqlalchemy.orm import sessionmaker
 # from sqlalchemy.orm import declarative_base
 from sqlalchemy.ext.declarative import declarative_base
+from pytz import timezone
+
 
 from base import Base  # Assuming this defines your SQLAlchemy Base
 from stat_class import WorkoutStats  # Assuming this defines your data model
@@ -58,7 +60,7 @@ def populate_stats():
         num_activity_logs = 0
         num_health_metrics = 0
 
-    current_datetime = datetime.datetime.now(timezone('America/Los_Angeles'))
+    current_datetime = datetime.now(timezone('America/Los_Angeles'))
     current_datetime_formatted = current_datetime.strftime("%Y-%m-%dT%H:%M:%S")
     # Fetch new event data from the Storage Service
     # logger.debug(f"{last_updated} - fetching with {current_datetime}")
