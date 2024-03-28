@@ -100,7 +100,7 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
     """Gets health metric readings between the start and end timestamps"""
     session = DB_SESSION()
     try:
-	start_datetime = parser.parse(start_timestamp)
+        start_datetime = parser.parse(start_timestamp)
         end_datetime = parser.parse(end_timestamp)
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(HealthMetricReading).filter(
