@@ -7,4 +7,4 @@ pymysql
 pykafka
 openapi_spec_validator
 python-dateutil
-zoneinfo
+backports.zoneinfo 

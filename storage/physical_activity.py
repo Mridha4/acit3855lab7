@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
 import datetime
-from zoneinfo import ZoneInfo
+from backports.zoneinfo import ZoneInfo
 class PhysicalActivityLog(Base):
     """ Physical Activity Log """
 
