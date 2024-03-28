@@ -41,13 +41,13 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 def log_physical_activity(body):
     """Receives a physical activity log"""
     session = DB_SESSION()
-    processed_time = datetime(body['timestamp']).strftime("%Y-%m-%dT%H:%M:%S")
+    processed_time = parser.parse(body['timestamp'])
     pa = PhysicalActivityLog(
         user_id=body['userId'],
         activity_type=body['activityType'],
         duration=body['duration'],
         trace_id=body['trace_id'],
-        timestamp=processed_time
+        timestamp=processed_time.strftime("%Y-%m-%dT%H:%M:%S")
     )
     session.add(pa)
     session.commit()
@@ -58,13 +58,13 @@ def log_physical_activity(body):
 def update_health_metric(body):
     """Receives a health metric update"""
     session = DB_SESSION()
-    processed_time = datetime(body['timestamp']).strftime("%Y-%m-%dT%H:%M:%S")
+    processed_time = parser.parse(body['timestamp'])
     hm = HealthMetricReading(
         user_id=body['userId'],
         metric_type=body['metricType'],
         value=body['value'],
         trace_id=body['trace_id'],
-        timestamp=processed_time
+        timestamp=processed_time.strftime("%Y-%m-%dT%H:%M:%S")
     )
     session.add(hm)
     session.commit()
@@ -72,18 +72,21 @@ def update_health_metric(body):
     logger.debug(f"Stored health metric event for user {body['trace_id']}")
     return NoContent, 201
 
+
 def get_physical_activity_logs(start_timestamp, end_timestamp):
     """Gets physical activity logs between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = start_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
-        end_datetime = end_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+        # Parse the string timestamps into datetime objects
+        start_datetime = parser.parse(start_timestamp)
+        end_datetime = parser.parse(end_timestamp)
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(PhysicalActivityLog).filter(
             and_(PhysicalActivityLog.timestamp >= start_datetime,
                  PhysicalActivityLog.timestamp <= end_datetime))
         results_list = [result.to_dict() for result in results]
         session.close()
+
         logger.info(f"Query for Physical Activity Logs between {start_timestamp} and {end_timestamp} returns {len(results_list)} results")
         return results_list, 200
     except Exception as e:
@@ -95,8 +98,8 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
     """Gets health metric readings between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = start_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
-        end_datetime = end_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+	start_datetime = parser.parse(start_timestamp)
+        end_datetime = parser.parse(end_timestamp)
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(HealthMetricReading).filter(
             and_(HealthMetricReading.timestamp >= start_datetime,
