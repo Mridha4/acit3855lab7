@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
 import datetime
+from pytz import timezone
 
 class HealthMetricReading(Base):
     """ Health Metric Reading """
