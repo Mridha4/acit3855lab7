@@ -47,13 +47,13 @@ def log_physical_activity(body):
         activity_type=body['activityType'],
         duration=body['duration'],
         trace_id=body['trace_id'],
-        timestamp=processed_time.strftime("%Y-%m-%dT%H:%M:%S")
-    )
+        timestamp=processed_time.strftime("%Y-%m-%dT%H:%M:%S"))
     session.add(pa)
     session.commit()
     session.close()
     logger.debug(f"Stored physical activity event for user {body['trace_id']}")
     return NoContent, 201
+
 
 def update_health_metric(body):
     """Receives a health metric update"""
@@ -82,8 +82,10 @@ def get_physical_activity_logs(start_timestamp, end_timestamp):
         end_datetime = parser.parse(end_timestamp)
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(PhysicalActivityLog).filter(
-            and_(PhysicalActivityLog.timestamp >= start_datetime,
-                 PhysicalActivityLog.timestamp <= end_datetime))
+            and_(
+                PhysicalActivityLog.timestamp >= start_datetime, 
+                PhysicalActivityLog.timestamp <= end_datetime)
+        )
         results_list = [result.to_dict() for result in results]
         session.close()
 
@@ -103,7 +105,7 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(HealthMetricReading).filter(
             and_(HealthMetricReading.timestamp >= start_datetime,
-                 HealthMetricReading.timestamp <= end_datetime))
+                HealthMetricReading.timestamp <= end_datetime))
         results_list = [result.to_dict() for result in results]
         session.close()
         logger.info(f"Query for Health Metric Readings between {start_timestamp} and {end_timestamp} returns {len(results_list)} results")
@@ -121,8 +123,8 @@ def process_messages():
     # Create a consumer on a consumer group, that only reads new messages
     # (uncommitted messages) when the service restarts.
     consumer = topic.get_simple_consumer(consumer_group=b'event_group',
-                                         reset_offset_on_start=False,
-                                         auto_offset_reset=OffsetType.LATEST)
+                                        reset_offset_on_start=False,
+                                        auto_offset_reset=OffsetType.LATEST)
 
     for msg in consumer:
         if msg is not None:
