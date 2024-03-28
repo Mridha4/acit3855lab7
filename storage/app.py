@@ -83,8 +83,8 @@ def get_physical_activity_logs(start_timestamp, end_timestamp):
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(PhysicalActivityLog).filter(
             and_(
-                PhysicalActivityLog.timestamp >= start_datetime, 
-                PhysicalActivityLog.timestamp <= end_datetime)
+                PhysicalActivityLog.date_created >= start_datetime, 
+                PhysicalActivityLog.date_created <= end_datetime)
         )
         results_list = [result.to_dict() for result in results]
         session.close()
@@ -102,10 +102,11 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
     try:
         start_datetime = parser.parse(start_timestamp)
         end_datetime = parser.parse(end_timestamp)
+        print(f'Start time: {start_datetime}, end time: {end_datetime}')
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(HealthMetricReading).filter(
-            and_(HealthMetricReading.timestamp >= start_datetime,
-                HealthMetricReading.timestamp <= end_datetime))
+            and_(HealthMetricReading.date_created >= start_datetime,
+                HealthMetricReading.date_created <= end_datetime))
         results_list = [result.to_dict() for result in results]
         session.close()
         logger.info(f"Query for Health Metric Readings between {start_timestamp} and {end_timestamp} returns {len(results_list)} results")
