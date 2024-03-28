@@ -16,16 +16,16 @@ from stat_class import WorkoutStats  # Assuming this defines your data model
 import pytz
 import connexion
 
-Base = declarative_base()
+# Base = declarative_base()
 
-class WorkoutStats(Base):
-    __tablename__ = 'statistics'
-    id = Column(Integer, primary_key=True)
-    num_activity_logs = Column(Integer)
-    average_duration = Column(Float)
-    num_health_metrics = Column(Integer)
-    average_heart_rate = Column(Float)
-    last_updated = Column(DateTime)
+# class WorkoutStats(Base):
+#     __tablename__ = 'statistics'
+#     id = Column(Integer, primary_key=True)
+#     num_activity_logs = Column(Integer)
+#     average_duration = Column(Float)
+#     num_health_metrics = Column(Integer)
+#     average_heart_rate = Column(Float)
+#     last_updated = Column(DateTime)
     
 # Load logging configuration
 # with open('log_conf.yml', 'r') as f:
@@ -54,11 +54,11 @@ def populate_stats():
         num_activity_logs = current_stats.num_activity_logs
         num_health_metrics = current_stats.num_health_metrics
     else: 
-        last_updated = datetime.strptime('2023-01-01T00:00:00Z', '%Y-%m-%dT%H:%M:%S')
+        last_updated = datetime.strptime('2023-01-01T00:00:00', '%Y-%m-%dT%H:%M:%S')
         num_activity_logs = 0
         num_health_metrics = 0
 
-    current_datetime = datetime.now()
+    current_datetime = datetime.datetime.now(timezone('America/Los_Angeles'))
     current_datetime_formatted = current_datetime.strftime("%Y-%m-%dT%H:%M:%S")
     # Fetch new event data from the Storage Service
     # logger.debug(f"{last_updated} - fetching with {current_datetime}")
@@ -66,6 +66,7 @@ def populate_stats():
         f"{app_config['eventstore']['url']}/health/metric",
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime_formatted})
     print(f"{app_config['eventstore']['url']}/health/metric")
+    print(last_updated, current_datetime_formatted)
     activity_logs_response = requests.get(
         f"{app_config['eventstore']['url']}/activity/log",
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime_formatted})
@@ -74,7 +75,7 @@ def populate_stats():
     if activity_logs_response.status_code == 200 and health_metrics_response.status_code == 200:
         activity_logs = activity_logs_response.json()
         health_metrics = health_metrics_response.json()
-        #print(activity_logs[0], health_metrics[0])
+        print(f"Activity logs fetched: {len(activity_logs)}, Health metrics fetched: {len(health_metrics)}")
 	# # Process statistics from responses
     #     num_activity_logs += len(activity_logs)
     #     num_health_metrics += len(health_metrics)
@@ -162,4 +163,4 @@ app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == '__main__':
     init_scheduler()
-    app.run(host='0.0.0.0', port=8100)
+    app.run(host='0.0.0.0', port=8102)
