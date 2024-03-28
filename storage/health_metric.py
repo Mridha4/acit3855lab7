@@ -13,7 +13,7 @@ class HealthMetricReading(Base):
     value = Column(Integer, nullable=False)
     timestamp = date_created = Column(DateTime, nullable=False)
     trace_id = Column(String(36), nullable=False)
-    date_created = Column(DateTime, default=datetime.datetime.now(timezone('PST')))
+    date_created = Column(DateTime, default=datetime.datetime.now(timezone('America/Los_Angeles')))
 
     def __init__(self, user_id, metric_type, value, trace_id, timestamp):
         """ Initializes a health metric reading """
