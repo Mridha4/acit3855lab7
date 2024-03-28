@@ -76,17 +76,21 @@ def update_health_metric(body):
 def get_physical_activity_logs(start_timestamp, end_timestamp):
     """Gets physical activity logs between the start and end timestamps"""
     session = DB_SESSION()
+    start_timestamp_datetime = datetime.strptime(start_timestamp,"%Y-%m-%dT%H:%M:%S")
+    end_timestamp_datetime = datetime.strptime(end_timestamp,"%Y-%m-%dT%H:%M:%S")
     try:
         # Parse the string timestamps into datetime objects
-        start_datetime = parser.parse(start_timestamp)
-        end_datetime = parser.parse(end_timestamp)
+        # start_datetime = parser.parse(start_timestamp)
+        # end_datetime = parser.parse(end_timestamp)
         logger.debug(f"{start_datetime}, {end_datetime}")
         results = session.query(PhysicalActivityLog).filter(
             and_(
-                PhysicalActivityLog.date_created >= start_datetime, 
-                PhysicalActivityLog.date_created <= end_datetime)
+                PhysicalActivityLog.date_created >= start_datetime_datetime, 
+                PhysicalActivityLog.date_created <= end_datetime_datetime)
         )
-        results_list = [result.to_dict() for result in results]
+        results_list = []
+        for reading in results:
+            results_list.append(reading.to_dict())
         session.close()
 
         logger.info(f"Query for Physical Activity Logs between {start_timestamp} and {end_timestamp} returns {len(results_list)} results")
@@ -100,16 +104,20 @@ def get_health_metric_readings(start_timestamp, end_timestamp):
     """Gets health metric readings between the start and end timestamps"""
     session = DB_SESSION()
     try:
-        start_datetime = parser.parse(start_timestamp)
-        end_datetime = parser.parse(end_timestamp)
-        print(f'Start time: {start_datetime}, end time: {end_datetime}')
-        logger.debug(f"{start_datetime}, {end_datetime}")
+        # start_datetime = parser.parse(start_timestamp)
+        # end_datetime = parser.parse(end_timestamp)
+        start_timestamp_datetime = datetime.strptime(start_timestamp,"%Y-%m-%dT%H:%M:%S")
+        end_timestamp_datetime = datetime.strptime(end_timestamp,"%Y-%m-%dT%H:%M:%S")
+        
+        logger.debug(f'Start time: {start_datetime_datetime}, end time: {end_datetime_datetime}')
         results = session.query(HealthMetricReading).filter(
-            and_(HealthMetricReading.date_created >= start_datetime,
-                HealthMetricReading.date_created <= end_datetime))
-        results_list = [result.to_dict() for result in results]
+            and_(HealthMetricReading.date_created >= start_datetime_datetime,
+                HealthMetricReading.date_created <= end_datetime_datetime))
+        results_list = []
+        for reading in results:
+            results_list.append(reading.to_dict())
         session.close()
-        logger.info(f"Query for Health Metric Readings between {start_timestamp} and {end_timestamp} returns {len(results_list)} results")
+        logger.info(f"Query for Health Metric Readings between {start_timestamp_datetime} and {end_timestamp_datetime} returns {len(results_list)} results")
         return results_list, 200
     except Exception as e:
         logger.error("Error fetching health metric readings", exc_info=True)

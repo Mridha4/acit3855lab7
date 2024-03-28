@@ -33,6 +33,6 @@ class HealthMetricReading(Base):
             'value': self.value,
             'timestamp': self.timestamp,
             'trace_id': self.trace_id,
-            'dateCreated': self.date_created.strftime('%Y-%m-%dT%H:%M:%S') if self.date_created else None
+            'dateCreated': self.date_created.strftime('%Y-%m-%dT%H:%M:%S') 
         }
         return dict_representation
