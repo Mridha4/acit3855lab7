@@ -133,6 +133,11 @@ def get_stats():
     # logger.info("Fetching the latest statistics")
     current_stats = session.query(WorkoutStats).order_by(WorkoutStats.last_updated.desc()).first()
     if current_stats:
+        # the following print statements are for debugging purposes, please delete after
+        print(current_stats.num_activity_logs)
+        print(current_stats.average_duration)
+        print(current_stats.num_health_metrics)
+        print(current_stats.average_heart_rate)
         stats_dict = {
             "num_activity_logs": current_stats.num_activity_logs,
             "average_duration": current_stats.average_duration,
