@@ -8,7 +8,9 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, Float, DateTime
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.orm import declarative_base
+# from sqlalchemy.orm import declarative_base
+from sqlalchemy.ext.declarative import declarative_base
+
 from base import Base  # Assuming this defines your SQLAlchemy Base
 from stat_class import WorkoutStats  # Assuming this defines your data model
 import pytz
