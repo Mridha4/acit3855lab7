@@ -97,14 +97,14 @@ def populate_stats():
             acti_log = sum(int(log['duration']) for log in activity_logs)
             average_duration = acti_log / len(activity_logs)
         else:
-            average_duration = 0  # Or keep the previous average_duration if desired
+            average_duration = 0  
 
         if health_metrics:
             heart_rate_values = [int(metric['value']) for metric in health_metrics if metric['metricType'] == 'Heart Rate']
             if heart_rate_values:
                 average_heart_rate = sum(heart_rate_values) / len(heart_rate_values)
             else:
-                average_heart_rate = 0  # Or keep the previous average_heart_rate if desired
+                average_heart_rate = 0  
         else:
             average_heart_rate = 0
 
@@ -118,7 +118,7 @@ def populate_stats():
         )
         session.add(new_stats)
         session.commit()
-        logger.debug(f'New Values: {id, num_activity_logs, num_health_metrics, average_duration, average_heart_rate, last_updated}')
+        #logger.debug(f'New Values: {id, num_activity_logs, num_health_metrics, average_duration, average_heart_rate, last_updated}')
         session.close()
     else:
     #     logger.error("errors")
