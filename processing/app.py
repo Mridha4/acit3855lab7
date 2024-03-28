@@ -75,20 +75,38 @@ def populate_stats():
         activity_logs = activity_logs_response.json()
         health_metrics = health_metrics_response.json()
         print(activity_logs, health_metrics)
-	# Process statistics from responses
+	# # Process statistics from responses
+    #     num_activity_logs += len(activity_logs)
+    #     num_health_metrics += len(health_metrics)
+    #     #average_duration = sum(log['duration'] for log in activity_logs) / len(activity_logs) if activity_logs else 0
+    #     acti_log = 0
+    #     for log in activity_logs:
+    #         acti_log += int(log['duration'])
+    #     average_duration = acti_log / len(activity_logs)
+    #     #average_heart_rate = sum(metric['value'] for metric in health_metrics if metric['metricType'] == 'Heart Rate') / len(health_metrics) if health_metrics else 0
+    #     avg_dur = 0
+    #     for metric in health_metrics:
+    #         if metric['metricType'] == 'Heart Rate':
+    #             avg_dur += int(metric['value'])
+    #     average_heart_rate = avg_dur / len(health_metrics)
+        # Process statistics from responses
         num_activity_logs += len(activity_logs)
         num_health_metrics += len(health_metrics)
-        #average_duration = sum(log['duration'] for log in activity_logs) / len(activity_logs) if activity_logs else 0
-        acti_log = 0
-        for log in activity_logs:
-            acti_log += int(log['duration'])
-        average_duration = acti_log / len(activity_logs)
-        #average_heart_rate = sum(metric['value'] for metric in health_metrics if metric['metricType'] == 'Heart Rate') / len(health_metrics) if health_metrics else 0
-        avg_dur = 0
-        for metric in health_metrics:
-            if metric['metricType'] == 'Heart Rate':
-                avg_dur += int(metric['value'])
-        average_heart_rate = avg_dur / len(health_metrics)
+
+        if activity_logs:
+            acti_log = sum(int(log['duration']) for log in activity_logs)
+            average_duration = acti_log / len(activity_logs)
+        else:
+            average_duration = 0  # Or keep the previous average_duration if desired
+
+        if health_metrics:
+            heart_rate_values = [int(metric['value']) for metric in health_metrics if metric['metricType'] == 'Heart Rate']
+            if heart_rate_values:
+                average_heart_rate = sum(heart_rate_values) / len(heart_rate_values)
+            else:
+                average_heart_rate = 0  # Or keep the previous average_heart_rate if desired
+        else:
+            average_heart_rate = 0
 
 	# Initialize processed stats for adding to db
         new_stats = WorkoutStats(
