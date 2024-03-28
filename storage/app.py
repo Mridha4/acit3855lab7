@@ -41,7 +41,7 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 def log_physical_activity(body):
     """Receives a physical activity log"""
     session = DB_SESSION()
-    processed_time = body['timestamp'].strftime("%Y-%m-%dT%H:%M:%S")
+    processed_time = datetime(body['timestamp']).strftime("%Y-%m-%dT%H:%M:%S")
     pa = PhysicalActivityLog(
         user_id=body['userId'],
         activity_type=body['activityType'],
@@ -58,7 +58,7 @@ def log_physical_activity(body):
 def update_health_metric(body):
     """Receives a health metric update"""
     session = DB_SESSION()
-    processed_time = body['timestamp'].strftime("%Y-%m-%dT%H:%M:%S")
+    processed_time = datetime(body['timestamp']).strftime("%Y-%m-%dT%H:%M:%S")
     hm = HealthMetricReading(
         user_id=body['userId'],
         metric_type=body['metricType'],
