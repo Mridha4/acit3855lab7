@@ -6,5 +6,5 @@ mysql-connector-python
 pymysql
 pykafka
 openapi_spec_validator
-python-dateutil
-backports.zoneinfo 
+python-dateutil 
+pytz
