@@ -37,14 +37,14 @@ paths:
         description: Start of the timestamp range
         schema:
           type: string
-          format: date-time
+          # format: date-time
       - name: end_timestamp
         in: query
         required: true
         description: End of the timestamp range
         schema:
           type: string
-          format: date-time
+          # format: date-time
       responses:
         '200':
           description: Successfully returned a list of physical activity events
@@ -93,14 +93,14 @@ paths:
         description: Start of the timestamp range
         schema:
           type: string
-          format: date-time
+          # format: date-time
       - name: end_timestamp
         in: query
         required: true
         description: End of the timestamp range
         schema:
           type: string
-          format: date-time
+          # format: date-time
       responses:
         '200':
           description: Successfully returned a list of health metric events
@@ -143,8 +143,8 @@ components:
           example: 30
         timestamp:
           type: string
-          format: date-time
-          example: 2024-01-08T09:12:33.001Z
+          # format: date-time
+          example: "2024-01-08T09:12:33"
         trace_id:
           type: string
           format: uuid
@@ -170,8 +170,8 @@ components:
           example: 72
         timestamp:
           type: string
-          format: date-time
-          example: 2024-01-08T10:15:30Z
+          # format: date-time
+          example: "2024-01-08T10:15:30"
         trace_id:
           type: string
           format: uuid
