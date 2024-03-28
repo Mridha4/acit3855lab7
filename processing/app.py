@@ -165,4 +165,4 @@ app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == '__main__':
     init_scheduler()
-    app.run(host='0.0.0.0', port=8102)
+    app.run(host='0.0.0.0', port=8100)
