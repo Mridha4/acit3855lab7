@@ -48,7 +48,8 @@ def log_physical_activity(body):
     msg = {
         "type": "physical_activity",
         "datetime": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-        "payload": body
+        "payload": body,
+        "trace_id": trace_id
     }
     produce_message(app_config['events']['topic'], json.dumps(msg))
 
@@ -71,7 +72,8 @@ def update_health_metric(body):
     msg = {
         "type": "health_metric",
         "datetime": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-        "payload": body
+        "payload": body,
+        "trace_id": trace_id
     }
     produce_message(app_config['events']['topic'], json.dumps(msg))
 

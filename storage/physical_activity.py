@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime
 from base import Base
 import datetime
 from pytz import timezone
-
+import pytz
 class PhysicalActivityLog(Base):
     """ Physical Activity Log """
 
@@ -14,7 +14,7 @@ class PhysicalActivityLog(Base):
     duration = Column(Integer, nullable=False)
     timestamp = Column(DateTime, nullable=False)
     trace_id = Column(String(36), nullable=False)
-    date_created = Column(DateTime, default=datetime.datetime.now(timezone('America/Los_Angeles')))
+    date_created = Column(DateTime, default=datetime.datetime.now(pytz.utc))
 
     def __init__(self, user_id, activity_type, duration, trace_id, timestamp):
         """ Initializes a physical activity log """
