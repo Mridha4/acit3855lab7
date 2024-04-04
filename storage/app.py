@@ -76,6 +76,7 @@ def update_health_metric(body):
 
 def get_physical_activity_logs(start_timestamp, end_timestamp):
     """Gets physical activity logs between the start and end timestamps"""
+    logger.info(f"before creation")
     session = DB_SESSION()
     start_timestamp_datetime = datetime.strptime(start_timestamp,"%Y-%m-%dT%H:%M:%S")
     end_timestamp_datetime = datetime.strptime(end_timestamp,"%Y-%m-%dT%H:%M:%S")
@@ -103,6 +104,7 @@ def get_physical_activity_logs(start_timestamp, end_timestamp):
 
 def get_health_metric_readings(start_timestamp, end_timestamp):
     """Gets health metric readings between the start and end timestamps"""
+    logger.info(f"before creation")
     session = DB_SESSION()
     try:
         start_timestamp_datetime = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")

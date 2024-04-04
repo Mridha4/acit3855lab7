@@ -1,5 +1,6 @@
 # This file must be used with "source bin/activate.csh" *from csh*.
 # You cannot run it directly.
+
 # Created by Davide Di Blasi <davidedb@gmail.com>.
 # Ported to Python 3.3 venv by Andrew Svetlov <andrew.svetlov@gmail.com>
 
@@ -8,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/saad/Desktop/BCIT_TERM4/ACIT3855/lab3_test/storage/venv"
+setenv VIRTUAL_ENV "/Users/saad/Desktop/BCIT_TERM4/ACIT3855/lab7/storage/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
