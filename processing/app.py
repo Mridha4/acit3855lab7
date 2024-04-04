@@ -23,12 +23,12 @@ utc_zone = pytz.utc
 
     
 # Load logging configuration
-# with open('log_conf.yml', 'r') as f:
-#     log_config = yaml.safe_load(f.read())
-# logging.config.dictConfig(log_config)
+with open('log_conf.yml', 'r') as f:
+    log_config = yaml.safe_load(f.read())
+logging.config.dictConfig(log_config)
 
 # Create a logger object
-# logger = logging.getLogger('basicLogger')
+logger = logging.getLogger('basicLogger')
 
 # Load application configuration
 with open('app_conf.yml', 'r') as f:
