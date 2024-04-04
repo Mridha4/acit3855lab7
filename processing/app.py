@@ -21,14 +21,6 @@ import connexion
 utc_zone = pytz.utc
 # Base = declarative_base()
 
-# class WorkoutStats(Base):
-#     __tablename__ = 'statistics'
-#     id = Column(Integer, primary_key=True)
-#     num_activity_logs = Column(Integer)
-#     average_duration = Column(Float)
-#     num_health_metrics = Column(Integer)
-#     average_heart_rate = Column(Float)
-#     last_updated = Column(DateTime)
     
 # Load logging configuration
 # with open('log_conf.yml', 'r') as f:
@@ -47,7 +39,7 @@ Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 def populate_stats():
-    # logger.info("Starting Periodic Processing")
+    logger.info("Starting Periodic Processing")
     session = DB_SESSION()
 
     # Fetch the last update time from the database
@@ -80,7 +72,7 @@ def populate_stats():
         app_config['eventstore']['url']+"/activity/log",
         params={'start_timestamp': last_updated, 'end_timestamp': current_datetime_formatted})
     print("status from activitylogs", activity_logs_response.status_code)
-    # logger.info({activity_logs_response})
+    logger.info({activity_logs_response})
     activity_logs = activity_logs_response.json()
     health_metrics = health_metrics_response.json()
     if activity_logs_response.status_code == [] and health_metrics_response.status_code == []:
@@ -111,22 +103,6 @@ def populate_stats():
                 average_heart_rate = 0
         else:
             average_heart_rate = 0
-#        print(f"Activity logs fetched: {len(activity_logs)}, Health metrics fetched: {len(health_metrics)}")
-	# # Process statistics from responses
-    #     num_activity_logs += len(activity_logs)
-    #     num_health_metrics += len(health_metrics)
-    #     #average_duration = sum(log['duration'] for log in activity_logs) / len(activity_logs) if activity_logs else 0
-    #     acti_log = 0
-    #     for log in activity_logs:
-    #         acti_log += int(log['duration'])
-    #     average_duration = acti_log / len(activity_logs)
-    #     #average_heart_rate = sum(metric['value'] for metric in health_metrics if metric['metricType'] == 'Heart Rate') / len(health_metrics) if health_metrics else 0
-    #     avg_dur = 0
-    #     for metric in health_metrics:
-    #         if metric['metricType'] == 'Heart Rate':
-    #             avg_dur += int(metric['value'])
-    #     average_heart_rate = avg_dur / len(health_metrics)
-        # Process statistics from responses
 
 
 
@@ -142,12 +118,7 @@ def populate_stats():
         session.commit()
         #logger.debug(f'New Values: {id, num_activity_logs, num_health_metrics, average_duration, average_heart_rate, last_updated}')
         session.close()
-    # else:
-    #     logger.error("errors")
-        # pass
-    # logger.info("Database updated with new statistics.")
 
-    # logger.info("Periodic Processing Completed")
 
 def get_stats():
     """Retrieves the latest statistics from the SQLite database and returns them as a JSON response."""

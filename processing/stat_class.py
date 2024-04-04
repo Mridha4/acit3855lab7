@@ -25,5 +25,5 @@ class WorkoutStats(Base):
             "average_duration": self.average_duration,
             "num_health_metrics":self.num_health_metrics,
             "average_heart_rate":self.average_heart_rate,
-            "last_updated":self.last_updated.strftime('%Y-%m-%dT%H:%M:%SZ')
+            "last_updated":self.last_updated.strftime('%Y-%m-%dT%H:%M:%S')
         }

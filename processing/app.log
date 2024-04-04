@@ -18326,3 +18326,152 @@
 2024-03-18 13:50:41,912 - basicLogger - DEBUG - New Values: (<built-in function id>, 180, 180, 0, 0, '2024-03-18T13:50:36Z')
 2024-03-18 13:50:41,912 - basicLogger - INFO - Database updated with new statistics.
 2024-03-18 13:50:41,912 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:07:54,703 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-19 13:07:59,709 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:07:59,723 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:07:59.723754
+2024-03-19 13:08:00,265 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:08:00,266 - basicLogger - ERROR - errors
+2024-03-19 13:08:04,708 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:08:04,712 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:08:04.712920
+2024-03-19 13:08:05,194 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:08:05,194 - basicLogger - ERROR - errors
+2024-03-19 13:08:09,704 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:08:09,709 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:08:09.709930
+2024-03-19 13:08:10,222 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:08:10,222 - basicLogger - ERROR - errors
+2024-03-19 13:08:14,708 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:08:14,712 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:08:14.712821
+2024-03-19 13:08:15,337 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:08:15,338 - basicLogger - ERROR - errors
+2024-03-19 13:08:19,708 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:08:19,710 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:08:19.710108
+2024-03-19 13:08:20,187 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:08:20,188 - basicLogger - ERROR - errors
+2024-03-19 13:12:05,106 - basicLogger - INFO - Scheduler has been initialized and started.
+2024-03-19 13:12:10,112 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:10,127 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:10.127274
+2024-03-19 13:12:10,638 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:10,638 - basicLogger - ERROR - errors
+2024-03-19 13:12:10,638 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:10,638 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:15,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:15,116 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:15.116444
+2024-03-19 13:12:15,877 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:15,877 - basicLogger - ERROR - errors
+2024-03-19 13:12:15,877 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:15,877 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:20,113 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:20,126 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:20.126766
+2024-03-19 13:12:21,126 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:21,126 - basicLogger - ERROR - errors
+2024-03-19 13:12:21,126 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:21,126 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:25,110 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:25,115 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:25.115741
+2024-03-19 13:12:25,840 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:25,841 - basicLogger - ERROR - errors
+2024-03-19 13:12:25,841 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:25,841 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:30,109 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:30,112 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:30.112757
+2024-03-19 13:12:30,687 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:30,687 - basicLogger - ERROR - errors
+2024-03-19 13:12:30,687 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:30,687 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:32,588 - basicLogger - INFO - Fetching the latest statistics
+2024-03-19 13:12:35,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:35,113 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:35.113617
+2024-03-19 13:12:35,687 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:35,687 - basicLogger - ERROR - errors
+2024-03-19 13:12:35,687 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:35,687 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:40,106 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:40,108 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:40.108306
+2024-03-19 13:12:40,713 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:40,713 - basicLogger - ERROR - errors
+2024-03-19 13:12:40,714 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:40,714 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:45,109 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:45,111 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:45.111844
+2024-03-19 13:12:45,696 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:45,696 - basicLogger - ERROR - errors
+2024-03-19 13:12:45,696 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:45,697 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:50,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:50,113 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:50.113800
+2024-03-19 13:12:50,678 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:50,679 - basicLogger - ERROR - errors
+2024-03-19 13:12:50,679 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:50,679 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:12:55,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:12:55,116 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:12:55.116036
+2024-03-19 13:12:55,629 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:12:55,629 - basicLogger - ERROR - errors
+2024-03-19 13:12:55,630 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:12:55,630 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:00,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:00,112 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:00.112806
+2024-03-19 13:13:00,649 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:00,649 - basicLogger - ERROR - errors
+2024-03-19 13:13:00,649 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:00,649 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:05,107 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:05,108 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:05.108750
+2024-03-19 13:13:05,652 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:05,652 - basicLogger - ERROR - errors
+2024-03-19 13:13:05,652 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:05,653 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:10,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:10,114 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:10.114597
+2024-03-19 13:13:11,084 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:11,085 - basicLogger - ERROR - errors
+2024-03-19 13:13:11,085 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:11,085 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:15,107 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:15,108 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:15.108744
+2024-03-19 13:13:15,723 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:15,723 - basicLogger - ERROR - errors
+2024-03-19 13:13:15,723 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:15,723 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:20,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:20,114 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:20.114667
+2024-03-19 13:13:20,664 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:20,664 - basicLogger - ERROR - errors
+2024-03-19 13:13:20,664 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:20,665 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:25,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:25,114 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:25.114620
+2024-03-19 13:13:25,685 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:25,685 - basicLogger - ERROR - errors
+2024-03-19 13:13:25,686 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:25,686 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:30,110 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:30,115 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:30.115785
+2024-03-19 13:13:30,602 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:30,602 - basicLogger - ERROR - errors
+2024-03-19 13:13:30,602 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:30,602 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:35,108 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:35,112 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:35.111290
+2024-03-19 13:13:35,647 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:35,647 - basicLogger - ERROR - errors
+2024-03-19 13:13:35,647 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:35,647 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:40,111 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:40,116 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:40.116262
+2024-03-19 13:13:41,279 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:41,280 - basicLogger - ERROR - errors
+2024-03-19 13:13:41,280 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:41,280 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:45,110 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:45,114 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:45.114374
+2024-03-19 13:13:45,607 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:45,607 - basicLogger - ERROR - errors
+2024-03-19 13:13:45,608 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:45,608 - basicLogger - INFO - Periodic Processing Completed
+2024-03-19 13:13:50,110 - basicLogger - INFO - Starting Periodic Processing
+2024-03-19 13:13:50,113 - basicLogger - DEBUG - 2024-03-18T13:50:41Z - fetching with 2024-03-19 13:13:50.113254
+2024-03-19 13:13:50,852 - basicLogger - INFO - {<Response [500]>}
+2024-03-19 13:13:50,853 - basicLogger - ERROR - errors
+2024-03-19 13:13:50,853 - basicLogger - INFO - Database updated with new statistics.
+2024-03-19 13:13:50,853 - basicLogger - INFO - Periodic Processing Completed
